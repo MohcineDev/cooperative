@@ -2,6 +2,9 @@
     background-color: #278ab0;
     color: #ffd;
     padding: 1.5rem;
+    clip-path: polygon(0 5%, 48% 5%, 50% 0, 52% 5%, 100% 5%, 100% 100%, 0 100%);
+    overflow: visible;
+    margin-top: 2rem;
 }
 
 .footer>div:first-child {
@@ -27,29 +30,21 @@
 
 .copyright a {
     color: #ffd;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid #264463;
 }
 
 .copyright a:hover {
-    color:#234d83;
-
+    color: #264463;
 }
 
 svg {
     width: 30px;
     margin: 0 10px;
     cursor: pointer;
-    transition: transform 0.3s;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-}
+    transition: transform 1s;
+ }
 
 svg:hover {
-    animation-name: turn;
-}
-
-@keyframes turn {
-    100% {
-        transform: rotate(360deg);
-    }
+    transform: rotate(360deg);
 }

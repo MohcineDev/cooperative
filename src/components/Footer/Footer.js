@@ -27,7 +27,7 @@ function Footer() {
                 </div>
             </div>
             <div className="copyright">
-                <p>Copyright &copy; {year} </p>
+                <p>Copyright &copy; {year} <a href="https://github.com/MohcineDev" target="_blank">MohcineDev</a> </p>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                         <title>instagram</title>
@@ -56,7 +56,6 @@ function Footer() {
                     </svg>
                 </div>
 
-                <p>Created by <a href="https://github.com/MohcineDev">MohcineDev</a> </p>
             </div>
         </div>
     )

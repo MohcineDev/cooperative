@@ -3,6 +3,7 @@ import Categories from '../Categories/Categories'
 import Footer from '../Footer/Footer'
 import Gallery from '../Gallery/Gallery'
 import Hero from '../Hero/Hero'
+import Process from '../Process/Process'
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Hero />
             <Categories />
             <Gallery/>
+            <Process/>
             <Footer/>
         </>
         )

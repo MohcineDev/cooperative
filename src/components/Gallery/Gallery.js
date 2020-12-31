@@ -4,7 +4,7 @@ import './gallery.css'
 function Gallery() {
     return (
         <div className="gallery">
-            <h3>A Gallery of our work</h3>
+            <h2>A Gallery of our work</h2>
             <div className="gallery-img">
                 <div id="first"></div>
                 <div id="second"></div>
