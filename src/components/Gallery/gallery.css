@@ -1,0 +1,64 @@
+.gallery {
+    padding: 1.5rem 0;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.gallery-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 10px;
+}
+
+.gallery-img div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.gallery-img div:hover::before {
+    content: "";
+    background-color: rgba(22, 174, 208, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#first {
+    grid-area: 1/1/3/3;
+    background-image: url('../../imgs/sand.jpg');
+}
+
+#second {
+    grid-area: 2/3/3/4;
+    background-image: url('../../imgs/lights.jpg');
+}
+
+#third {
+    grid-area: 1/4/2/5;
+    background-image: url('../../imgs/terre.jpg');
+}
+
+#fourth {
+    grid-area: 2/4/3/5;
+    background-image: url('../../imgs/forest.jpg');
+}
+
+#fifth {
+    grid-area: 1/3/2/4;
+    background-image: url('../../imgs/beach.jpg');
+}

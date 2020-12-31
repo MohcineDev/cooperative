@@ -1,0 +1,55 @@
+.footer {
+    background-color: #278ab0;
+    color: #ffd;
+    padding: 1.5rem;
+}
+
+.footer>div:first-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.footer>div:first-child div>p:first-child {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 0 2rem;
+}
+
+.copyright a {
+    color: #ffd;
+    transition: 0.5s ease-in-out;
+}
+
+.copyright a:hover {
+    color:#234d83;
+
+}
+
+svg {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+svg:hover {
+    animation-name: turn;
+}
+
+@keyframes turn {
+    100% {
+        transform: rotate(360deg);
+    }
+}

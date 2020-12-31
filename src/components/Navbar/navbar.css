@@ -1,0 +1,15 @@
+nav {
+    background-color: #555;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+}
+nav .logo{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+nav a {
+    padding: 15px;
+    color: azure;
+}
