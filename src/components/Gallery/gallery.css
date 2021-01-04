@@ -2,7 +2,6 @@
     padding: 1.5rem 0;
 }
 
-
 .gallery-img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -17,12 +16,39 @@
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.gallery-img div:hover::before {
+.gallery-img div button {
+    padding: 0.8rem 2.3rem;
+    font-size: 1.2rem;
+    z-index: 3;
+    background-color: rgba(14, 46, 114, 0.4);
+    border-radius: 0.6rem;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    color: #eee;
+    cursor: pointer;
+    transition: all .5s;
+}
+.gallery-img div a {
+    position: absolute;
+    display: none;
+}
+
+.gallery-img div:hover a {
+    display: block;
+}
+
+.gallery-img div button:hover {
+    background-color: rgba(14, 46, 114, 0.7);
+}
+
+/* .gallery-img div:hover::before {
     content: "";
-    background-color: rgba(22, 174, 208, 0.4);
+    background-color: rgba(92, 171, 189, 0.4);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -31,29 +57,38 @@
     right: 0;
     bottom: 0;
     z-index: 2;
+} */
+
+.gallery-img div img {
+    height: 100%;
+    transition: 1s;
+}
+
+.gallery-img div:hover img {
+    height: 110%;
 }
 
 #first {
     grid-area: 1/1/3/3;
-    background-image: url('../../imgs/sand.jpg');
+    /* background-image: url('../../imgs/sand.jpg'); */
 }
 
 #second {
-    grid-area: 2/3/3/4;
-    background-image: url('../../imgs/lights.jpg');
+    grid-area: 1/3/2/4;
+    /* background-image: url('../../imgs/lights.jpg'); */
 }
 
 #third {
     grid-area: 1/4/2/5;
-    background-image: url('../../imgs/terre.jpg');
+    /* background-image: url('../../imgs/terre.jpg'); */
 }
 
 #fourth {
-    grid-area: 2/4/3/5;
-    background-image: url('../../imgs/forest.jpg');
+    grid-area: 2/3/3/4;
+    /* background-image: url('../../imgs/forest.jpg'); */
 }
 
 #fifth {
-    grid-area: 1/3/2/4;
-    background-image: url('../../imgs/net.jpg');
+    grid-area: 2/4/3/5;
+    /* background-image: url('../../imgs/net.jpg'); */
 }

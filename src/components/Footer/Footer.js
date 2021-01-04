@@ -9,7 +9,7 @@ function Footer() {
             <div>
                 <div>
                     <p>Conditions</p>
-                    <p>privacy policy</p>
+                    <p>privacy policy</p>   
                     <p>privacy policy</p>
                     <p>privacy policy</p>
                 </div>

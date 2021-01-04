@@ -1,0 +1,30 @@
+ 
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.details h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.d-wrapper, .d-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0px, 50%));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.d-row img {
+    width: 100%;
+    border-radius: 1rem;
+}

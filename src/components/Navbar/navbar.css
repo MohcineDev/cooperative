@@ -1,5 +1,5 @@
 nav {
-    background-color:  #1189b5;
+    background-color:  var(--dark);
     display: grid;
     grid-template-columns: repeat(2, 50%);
     align-items: center;

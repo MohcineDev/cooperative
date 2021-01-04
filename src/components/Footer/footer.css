@@ -4,7 +4,7 @@
     padding: 1.5rem;
     clip-path: polygon(0 5%, 48% 5%, 50% 0, 52% 5%, 100% 5%, 100% 100%, 0 100%);
     overflow: visible;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .footer>div:first-child {
