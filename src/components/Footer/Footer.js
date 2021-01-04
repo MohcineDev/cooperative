@@ -16,18 +16,18 @@ function Footer() {
                 <div>
                     <p>privacy policy</p>
                     <p>privacy policy</p>
-                    <p>privacy policy</p>
-                    <p>privacy policy</p>
+                    <p>Contact Us</p>
+                    <p>Members</p>
                 </div>
                 <div>
                     <p>privacy policy</p>
-                    <p>privacy policy</p>
-                    <p>privacy policy</p>
-                    <p>privacy policy</p>
+                    <p>Partners</p>
+                    <p>Shipping policy</p>
+                    <p>FAQs</p>
                 </div>
             </div>
             <div className="copyright">
-                <p>Copyright &copy; {year} <a href="https://github.com/MohcineDev" target="_blank">MohcineDev</a> </p>
+                <p>Copyright &copy; {year} <a href="https://github.com/MohcineDev" target="_blank" rel="noreferrer">MohcineDev</a> </p>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                         <title>instagram</title>
