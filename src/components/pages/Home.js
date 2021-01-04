@@ -6,15 +6,16 @@ import Hero from '../Hero/Hero'
 import Process from '../Process/Process'
 
 function Home() {
+    
+
     return (
         <>
             <Hero />
             <Categories />
-            <Gallery/>
-            <Process/>
-            <Footer/>
+            <Gallery />
+            <Process />
         </>
-        )
+    )
 }
 
 export default Home
