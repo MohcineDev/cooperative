@@ -10,6 +10,7 @@ function Navbar() {
                 <Link to='/'>About</Link>
                 <a href='#categories'>Categories</a>
                 <Link to='/'>Location</Link>
+                <a href='#gallery'>Gallery</a>
             </div>
         </nav>
     )
