@@ -1,0 +1,32 @@
+.privacy {
+    width: 80%;
+    margin: 0 auto;
+    color: #102030;
+}
+
+.privacy img {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.privacy .title{
+    font-weight: 700;
+}
+.privacy ul li{
+    margin: 1rem 0;
+}
+ 
+.privacy>div{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, 100%));
+    gap: 1rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .privacy>div{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(50%, 100%));
+    }
+
+}

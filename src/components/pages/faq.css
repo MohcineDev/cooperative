@@ -1,0 +1,96 @@
+.faq {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.faq h1 {
+    text-align: center;
+}
+
+.faq>p {
+    color: rgb(105, 105, 105);
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.faq .wrap {
+    box-shadow: 0 0 5px rgb(49, 49, 49);
+}
+.faq .container {
+    color: #ddd;
+    background-color: var(--dark);
+}
+
+.container .question p {
+    width: 100%;
+    margin: 0;
+}
+
+.faq .container p {
+    padding: 2rem;
+}
+
+.container .question {
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.container .answer {
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+    background-color: #101020;
+    overflow: hidden;
+}
+
+.show {
+    max-height: 500px !important;
+}
+
+.faq .more {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0px, 100%));
+    gap: 2rem;
+    align-items: center;
+    background-color:#fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(167, 167, 167, 0.7);
+}
+
+.more img {
+    width: 100%;
+}
+
+.faq .more button {
+    background-color: rgba(12, 47, 95, 0.7);
+    border: 1px solid var(--dark);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;   
+    z-index: 2;
+}
+
+.faq .more button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    transition: 0.3s;
+    background-color: rgba(12, 47, 95, 0.9);
+    z-index: -1;
+
+}
+
+.faq .more button:hover:before {
+    top: 0%;
+    left: 0;
+}
