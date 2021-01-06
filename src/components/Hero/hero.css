@@ -1,14 +1,14 @@
-.container {
+.hero .container {
     background: black;
     background-image: url('../../imgs/travel-m.jpg');
     background-repeat: no-repeat;
-    height: calc(100vh - 62px);
+    height: calc(100vh - 58px); 
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.container::before {
+.hero  .container::before {
     content: "";
     background-color: rgba(10, 40, 60, 0.6);
     position: absolute;
