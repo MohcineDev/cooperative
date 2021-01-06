@@ -15,6 +15,12 @@
     margin: 1.5rem auto;
 }
 
+.footer div:nth-child(1) div a {
+    color: green;
+    display: block;
+    color: #eee;
+}
+
 .footer>div:first-child div>p:first-child {
     font-size: 1.1rem;
     font-weight: 600;
@@ -38,13 +44,13 @@
     color: #264463;
 }
 
-svg {
+.copyright svg {
     width: 30px;
     margin: 0 10px;
     cursor: pointer;
     transition: transform 1s;
- }
+}
 
-svg:hover {
+.copyright svg:hover {
     transform: rotate(360deg);
 }
