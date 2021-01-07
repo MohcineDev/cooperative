@@ -8,18 +8,18 @@ function Footer() {
 
     return (
         <div className='footer'>
-            <div>
+            <div className='links'>
                 <div>
                     <p>Conditions</p>
                     <p>Something</p>
-                    <Link to='privacy'>privacy policy</Link>
+                    <p><Link to='privacy'>privacy policy</Link></p>
                     <p>Something here</p>
                 </div>
                 <div>
                     <p>Something else</p>
                     <p>Lorem ipsum</p>
-                    <p>Contact Us</p>
-                    <Link to='/members'>Members</Link>
+                    <p><Link to='/contact'>Contact Us</Link></p>
+                    <p><Link to='/members'>Members</Link></p>
                 </div>
                 <div>
                     <p>privacy policy</p>

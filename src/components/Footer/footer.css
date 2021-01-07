@@ -15,10 +15,11 @@
     margin: 1.5rem auto;
 }
 
-.footer div:nth-child(1) div a {
-    color: green;
-    display: block;
+.footer .links div a {
     color: #eee;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    transition: color 0.3s;
 }
 
 .footer>div:first-child div>p:first-child {
@@ -36,12 +37,12 @@
 
 .copyright a {
     color: #ffd;
-    transition: 0.3s ease-in-out;
+    transition: color 0.3s;
     border-bottom: 1px solid #264463;
 }
 
-.copyright a:hover {
-    color: #264463;
+.footer a:hover {
+    color: #afc7ff !important;
 }
 
 .copyright svg {
