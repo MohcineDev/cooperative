@@ -89,7 +89,7 @@ function Faq() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officia molestiae! Corrupti voluptatem possimus aspernatur dolorum, quibusdam qui dolore eligendi. Commodi tempora quidem eum. Dignissimos veritatis odit repudiandae eaque nam!
                       </p>
                     <p>fell free to Contact Us</p>
-                    <Link><button>Contact Us</button></Link>
+                    <Link to='/contact'><button>Contact Us</button></Link>
                 </div>
             </div>
 
