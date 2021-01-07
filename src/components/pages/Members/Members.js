@@ -4,8 +4,8 @@ import member from './data.json'
 
 function Members() {
 
+    window.scrollTo(0, 0)
 
-    console.log(member[0].img);
 
     return (
         <div className='members'>
@@ -20,7 +20,7 @@ function Members() {
                         <p>{member[0].name}</p>
                         <div className="social">
                             {
-                                member[0].social.map((item, i) =><a href={item.link} target="_blanc"> <img key={i} src={'./imgs/' + item.icon} alt="" /></a>)
+                                member[0].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>
@@ -32,7 +32,7 @@ function Members() {
                         <p>{member[1].name}</p>
                         <div className="social">
                             {
-                                member[1].social.map((item, i) => <img key={i} src={'./imgs/' + item} alt="" />)
+                                member[1].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>
@@ -44,7 +44,7 @@ function Members() {
                         <p>{member[2].name}</p>
                         <div className="social">
                             {
-                                member[2].social.map((item, i) => <img key={i} src={'./imgs/' + item} alt="" />)
+                                member[2].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>
@@ -56,7 +56,7 @@ function Members() {
                         <p>{member[3].name}</p>
                         <div className="social">
                             {
-                                member[3].social.map((item, i) => <img key={i} src={'./imgs/' + item} alt="" />)
+                                member[3].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>
@@ -70,7 +70,7 @@ function Members() {
                         <p>{member[4].name}</p>
                         <div className="social">
                             {
-                                member[4].social.map((item, i) => <img key={i} src={'./imgs/' + item} alt="" />)
+                                member[4].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>
@@ -82,7 +82,7 @@ function Members() {
                         <p>{member[5].name}</p>
                         <div className="social">
                             {
-                                member[5].social.map((item, i) => <img key={i} src={'./imgs/' + item} alt="" />)
+                                member[5].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>
@@ -94,7 +94,7 @@ function Members() {
                         <p>{member[6].name}</p>
                         <div className="social">
                             {
-                                member[6].social.map((item, i) => <img key={i} src={'./imgs/' + item} alt="" />)
+                                member[6].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>
@@ -106,7 +106,7 @@ function Members() {
                         <p>{member[7].name}</p>
                         <div className="social">
                             {
-                                member[7].social.map((item, i) => <img key={i} src={'./imgs/' + item} alt="" />)
+                                member[7].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img  src={'./imgs/' + item.icon} alt="" /></a>)
                             }
                         </div>
                         <p className='desc'>

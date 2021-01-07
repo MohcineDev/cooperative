@@ -3,6 +3,9 @@ import './privacy.css'
 import privacy from '../../imgs/svg-7.svg'
 
 function Privacy() {
+    window.scrollTo(0, 0)
+
+
     return (
         <div className="privacy">
             <img src={privacy} alt="" />

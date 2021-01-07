@@ -5,7 +5,7 @@ import './navbar.css'
 function Navbar() {
     return (
         <nav>
-            <Link to='/' className='logo'>Title</Link>
+            <Link to='/' className='logo'>Cooperative</Link>
             <div>
                 <Link to='/'>About</Link>
                 <a href='#categories'>Categories</a>
