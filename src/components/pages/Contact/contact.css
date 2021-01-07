@@ -1,0 +1,98 @@
+.contact {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact>div {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.social {
+    display: flex;
+}
+
+.contact .social a {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #eee;
+    background-color: var(--dark);
+    cursor: pointer;
+    margin-right: 1rem;
+    border: 2px dashed #ddd;
+    box-shadow: 0 0 0px 3px var(--dark);
+}
+
+.contact .social a:hover {
+    border: 2px dashed #fff;
+}
+
+.contact .social a span {
+    font-size: 1rem;
+}
+
+.contact .social a svg {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.contact .email p:nth-child(2) {
+    background-color: #ddd;
+    border-left: 7px solid #ccc;
+    padding: 7px;
+    width: max-content;
+}
+
+.contact form {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form .row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 100%));
+    width: 90%;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.contact form input, form textarea {
+    background-color: #fff;
+    border: 1px solid var(--dark);
+    padding: 0.5rem;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0.5rem 0;
+}
+
+.contact form input {
+    width: 90%;
+}
+
+.contact form textarea {
+    resize: none;
+    width: 90%;
+}
+
+.contact form input[type="submit"] {
+    background-color: var(--dark);
+    font-size: 1rem;
+    color: #eee;
+    cursor: pointer;
+    width: 50%;
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+.contact form [type="submit"]:hover {
+    background-color: #278ab0;
+}
+
+.contact form .row input {
+    width: 100%;
+}
