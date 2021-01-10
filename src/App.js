@@ -2,11 +2,13 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import details from './components/details/details';
 import Footer from './components/Footer/Footer';
 import Navbar from "./components/Navbar/Navbar";
-import Contact from './components/pages/Contact/Contact';
-import Faq from './components/pages/FAQ';
-import Home from './components/pages/Home';
-import Members from './components/pages/Members/Members';
-import Privacy from './components/pages/Privacy';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Faq from './pages/FAQ/FAQ';
+import Home from './pages/Home';
+import Members from './pages/Members/Members';
+import Privacy from './pages/Privacy/Privacy';
+import Shop from './pages/Shop/Shop';
 
 function App() {
 
@@ -19,6 +21,9 @@ function App() {
         <Route path='/privacy' component={Privacy} />
         <Route path='/members' component={Members} />
         <Route path='/contact' component={Contact} />
+        <Route path='/shop' component={Shop} />
+        <Route path='/about' component={About} />
+        <Route path='/shipping-policy' component={Privacy} />
         <Route path='/details/:id' component={details} />
 
       </Switch>
