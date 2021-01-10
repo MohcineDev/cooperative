@@ -1,15 +1,49 @@
 nav {
-    background-color:  var(--dark);
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
+    background-color: var(--dark);
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-nav .logo{
+
+nav a {
+    padding: 1rem 0.5rem;
+    color: azure;
+    margin: 0 0.5rem;
+}
+
+nav .logo {
     margin-left: 20px;
     font-size: 1.5rem;
     font-weight: 600;
+    padding: 0.8rem;
 }
-nav a {
-    padding: 15px;
-    color: azure;
+
+nav>div {
+    margin-right: 20vw;
+    display: flex;
+}
+
+nav>div a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+nav>div a:not(.active)::before {
+    box-sizing: border-box;
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    border-bottom: 4px solid #1265be;
+    transition: left 0.5s;
+}
+
+nav>div a:hover:before {
+    left: 0%;
+}
+
+nav .active {
+    border-bottom: 4px solid #eee;
 }
