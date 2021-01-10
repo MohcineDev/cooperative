@@ -6,7 +6,6 @@ function Members() {
 
     window.scrollTo(0, 0)
 
-
     return (
         <div className='members'>
             <h2>Our Cooperative Members / team</h2>

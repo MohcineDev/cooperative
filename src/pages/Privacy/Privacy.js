@@ -1,15 +1,24 @@
 import React from 'react'
 import './privacy.css'
 import privacy from '../../imgs/svg-7.svg'
+import del from '../../imgs/on.svg'
 
-function Privacy() {
+function Privacy(props) {
     window.scrollTo(0, 0)
 
+    console.log(props.location.pathname.substring(1));
+    const pathname = props.location.pathname.substring(1)
+    let name = 'Shipping Policy'
+    let img = del
+    if (pathname === 'privacy') {
+        name = 'Privacy Policy'
+        img = privacy
+    }
 
     return (
         <div className="privacy">
-            <img src={privacy} alt="" />
-            <h3>Cooperative Privacy policy</h3>
+            <img src={img} alt="" />
+            <h3>Cooperative {name}</h3>
             <p className="title">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias neque sunt consequatur nesciunt ex ipsum odio quia expedita necessitatibus. Labore, error! Molestiae, corrupti! Doloremque fuga obcaecati numquam repudiandae beatae quia?
             </p>

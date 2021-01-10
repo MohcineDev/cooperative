@@ -2,11 +2,15 @@
     width: 80%;
     margin: 0 auto;
 }
+.contact h2{
+    text-align: left;
+}
 
 .contact>div {
     background-color: #fff;
     padding: 1rem;
     margin: 1rem 0;
+    box-shadow: 0 0 5px #aaa;
 }
 
 .social {

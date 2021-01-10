@@ -27,6 +27,8 @@ function Contact() {
 
     return (
         <div className='contact'>
+            <h2>Contact Us</h2>
+
             <div>
                 <p>you can send us a message in our social media accounts</p>
                 <div className='social'>

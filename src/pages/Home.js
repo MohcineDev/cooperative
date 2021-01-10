@@ -1,8 +1,8 @@
 import React from 'react'
-import Categories from '../Categories/Categories'
-import Gallery from '../Gallery/Gallery'
-import Hero from '../Hero/Hero'
-import Process from '../Process/Process'
+import Categories from '../components/Categories/Categories'
+import Gallery from '../components/Gallery/Gallery'
+import Hero from '../components/Hero/Hero'
+import Process from '../components/Process/Process'
 
 function Home() {
     

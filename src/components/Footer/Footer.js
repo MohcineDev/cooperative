@@ -5,27 +5,27 @@ import './footer.css'
 
 function Footer() {
     let year = new Date().getFullYear()
-
+ 
     return (
         <div className='footer'>
             <div className='links'>
                 <div>
                     <p>Conditions</p>
-                    <p>Something</p>
+                    <p><Link to='/shop'>Shop</Link></p>
                     <p><Link to='privacy'>privacy policy</Link></p>
                     <p>Something here</p>
                 </div>
                 <div>
                     <p>Something else</p>
-                    <p>Lorem ipsum</p>
-                    <p><Link to='/contact'>Contact Us</Link></p>
-                    <p><Link to='/members'>Members</Link></p>
+                    <p><Link to='/members' title='our cooperative members'>Members</Link></p>
+                    <p><Link to='/contact' title="click to contact us">Contact Us</Link></p>
+                    <p>Something else</p>
                 </div>
                 <div>
-                    <p>privacy policy</p>
-                    <p>Partners</p>
-                    <p>Shipping policy</p>
-                    <Link to='/faq'>FAQs</Link>
+                    <p>More Here</p>
+                    <p><Link to='/faq' title="some questions and answers">FAQs</Link></p>
+                    <a href="https://www.google.com/maps/@33.0997978,-4.5534665,7.25z" rel="noreferrer" title='view it in google maps!' target='_blank'>Location</a>
+                    <p><Link to='/shipping-policy' title="our Shipping policy">Shipping policy</Link></p>
                 </div>
             </div>
             <div className="copyright">

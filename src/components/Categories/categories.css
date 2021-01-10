@@ -7,7 +7,6 @@
     margin: 0 auto;
 }
  
-
 .categories .row {
     display: grid;
     grid-template-areas: "first second three";

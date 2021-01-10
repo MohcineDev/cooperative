@@ -1,0 +1,26 @@
+.shop {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.shop h1 {
+    text-align: center;
+}
+
+.shop>p {
+    color: rgb(105, 105, 105);
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.shop .container>p {
+    font-weight: 700;
+}
+
+.shop .wrap {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0%, 100%));
+    gap: 1.5rem;
+}
