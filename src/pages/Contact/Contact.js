@@ -51,7 +51,7 @@ function Contact() {
                     </div>
                     <input type="text" placeholder="Subject" aria-label="Subject" maxLength="60" />
                     <textarea cols="30" placeholder="Your Message!" aria-label="Your Message!" rows="10" ></textarea>
-                    <input type="submit" value="Send" />
+                    <input type="submit" title="still not working" value="Send" />
                 </form>
             </div>
         </div>
