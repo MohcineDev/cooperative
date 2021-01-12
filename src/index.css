@@ -11,6 +11,7 @@ body {
 
 *::selection {
   color: crimson;
+  outline: none;
 }
 
 a {
