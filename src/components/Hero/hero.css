@@ -1,10 +1,11 @@
 .hero .container {
     background: black;
-    background-image: url('../../imgs/travel-m.jpg');
+    background-image: url('../../imgs/trad.jpg');
     background-repeat: no-repeat;
     height: calc(100vh - 54px);
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
     position: relative;
 }
 
@@ -21,10 +22,75 @@
     z-index: 1;
 }
 
+.hero .container .wrapper {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 100%);
+    transform: translateX(-100%)
+}
+
+.hero .container .wrapper img {
+    width: 100%;
+    height: calc(100vh - 54px);
+}
+
+.hero .container>button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1.2rem;
+    border-radius: 5px;
+    background: rgb(25, 25, 25);
+    cursor: pointer;
+    transition: .3s;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.hero .container>button:hover {
+    opacity: 1;
+}
+
+#prev, #next {
+    border: 2px solid #ddd;
+    font-size: 20px;
+}
+
+#prev {
+    left: 5%;
+}
+
+#next {
+    right: 5%;
+}
+
+#prev::after, #next::after {
+    content: "";
+    border: 15px solid;
+    box-sizing: border-box;
+    border-color: transparent white transparent transparent;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+}
+
+#prev::after {
+    left: -5px;
+}
+
+#next::after {
+    transform: rotate(180deg);
+    right: -5px;
+}
+
 .content {
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: red !important;
     width: 70%;
     display: flex;
     grid-auto-columns: 1fr;
@@ -38,11 +104,13 @@
 
 .content h1 {
     font-size: 3rem;
+    color: #eee;
 }
 
 .content p {
     line-height: 2rem;
     font-size: 1.3rem;
+    color: #eee;
 }
 
 .content button {
