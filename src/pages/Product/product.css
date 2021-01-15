@@ -1,0 +1,193 @@
+.product-container {
+    width: 80%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+.product-container .container {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    position: relative;
+}
+ 
+.product-container .container:hover button {
+    transition: all 0.5s;
+    display: block;
+}
+
+.product-container .container img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.product-container .container .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 100%);
+    transform: translateX(-100%);
+}
+
+.product-container .container>button {
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    top: calc(50% - 25px);
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+
+.product-container .container>button:nth-of-type(1) {
+    border-radius: 0 50% 50% 0;
+    left: 0;
+}
+
+.product-container .container>button:nth-of-type(2) {
+    border-radius: 50% 0 0 50%;
+    right: 0;
+}
+
+/* ============== */
+
+.style p:nth-child(1), .colors p:nth-child(1), .sizes>p:nth-child(1) {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--color1);
+    letter-spacing: 1px;
+}
+
+.colors .colors_availabel div {
+    width: 25px;
+    height: 25px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.colors .colors_availabel {
+    display: flex;
+}
+
+.colors .colors_availabel .brown {
+    background-color: brown;
+}
+
+.colors .colors_availabel .lightBlue {
+    background-color: rgb(29, 230, 230);
+}
+
+.colors .colors_availabel .darkBlue {
+    background-color: rgb(42, 42, 220);
+}
+
+.colors .colors_availabel .red {
+    background-color: rgb(235, 32, 32);
+}
+
+.colors .colors_availabel .green {
+    background-color: rgb(34, 194, 34);
+}
+
+.sizes .availaableSizes p {
+    margin: 0;
+    margin-right: 5px;
+    border: 1px solid #dadada;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sizes .availaableSizes {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.sizes .availaableSizes p:last-child {
+    border: none;
+    color: rgb(51, 91, 143);
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    cursor: pointer;
+}
+
+.sizes .availaableSizes p:last-child span {
+    position: absolute;
+    display: none;
+    transition: opacity 0.5s;
+    bottom: 1.5rem;
+    left: 0;
+    background: #4a9bd9;
+    color: antiquewhite;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 230px;
+    font-size: 0.8rem;
+    cursor: none;
+}
+
+.sizes .availaableSizes p:last-child:hover span {
+    display: block;
+}
+
+.buy {
+    background: linear-gradient(90deg, #5178ab, #3e6ba7);
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 1rem 1.3rem;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.buy:hover {
+    background: linear-gradient(-90deg, #5178ab, #355e94);
+    cursor: pointer;
+}
+
+.discFooter {
+    display: flex;
+}
+
+.discFooter div {
+    margin: 5px;
+    border: 1px solid #dadada;
+    padding: 5px 25px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.discFooter div:first-child {
+    border: none;
+}
+
+.discFooter div p {
+    margin: 0px;
+    font-weight: 600;
+}
+
+.discFooter span {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .product-container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .product-container {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
