@@ -7,7 +7,9 @@ import Contact from './pages/Contact/Contact';
 import Faq from './pages/FAQ/FAQ';
 import Home from './pages/Home';
 import Members from './pages/Members/Members';
+import NotFound from './pages/NotFound/NotFound';
 import Privacy from './pages/Privacy/Privacy';
+import Product from './pages/Product/Product';
 import Shop from './pages/Shop/Shop';
 
 function App() {
@@ -25,7 +27,8 @@ function App() {
         <Route path='/about' component={About} />
         <Route path='/shipping-policy' component={Privacy} />
         <Route path='/details/:id' component={details} />
-
+        <Route path='/product/:id' component={Product} />
+        <Route component={NotFound} />
       </Switch>
       <Footer />
 
