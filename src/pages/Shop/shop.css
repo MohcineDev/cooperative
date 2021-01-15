@@ -20,7 +20,17 @@
 
 .shop .wrap {
     margin: 2rem 0;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0%, 100%));
-    gap: 1.5rem;
+    /* display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 250px));
+    gap: 1.5rem; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+    .shop {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
