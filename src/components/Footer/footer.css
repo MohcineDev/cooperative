@@ -1,12 +1,15 @@
 .footer {
-    background-color: #278ab0;
+    background-color: var(--dark);
     color: #ffd;
     padding: 1.5rem;
     clip-path: polygon(0 5%, 48% 5%, 50% 0, 52% 5%, 100% 5%, 100% 100%, 0 100%);
     overflow: visible;
     margin-top: 5rem;
+    box-shadow: 0 -4px 10px rgb(61, 123, 165) inset;
 }
-
+.footer p,.footer a{
+    color: #ffd;
+}
 .footer>div:first-child {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,8 +18,7 @@
     margin: 1.5rem auto;
 }
 
-.footer .links div a {
-    color: #eee;
+.footer .links div a { 
     margin: 1rem 0;
     line-height: 1.5rem;
     transition: color 0.3s;
@@ -25,6 +27,7 @@
 .footer>div:first-child div>p:first-child {
     font-size: 1.1rem;
     font-weight: 600;
+    color: #afc7ff;
 }
 
 .copyright {

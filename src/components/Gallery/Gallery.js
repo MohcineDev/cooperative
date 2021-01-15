@@ -5,7 +5,7 @@ import sand from '../../imgs/sand.jpg'
 import lights from '../../imgs/lights.jpg'
 import terre from '../../imgs/terre.jpg'
 import forest from '../../imgs/forest.jpg'
-import travel from '../../imgs/travel-m.jpg'
+import trad from '../../imgs/trad.jpg'
 
 function Gallery() {
     return (
@@ -37,7 +37,7 @@ function Gallery() {
                     </Link>
                 </div>
                 <div id="fifth">
-                    <img src={travel} alt="" />
+                    <img src={trad} alt="" />
                     <Link to="/details/5">
                         <button>More</button>
                     </Link>

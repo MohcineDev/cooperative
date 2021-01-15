@@ -23,7 +23,6 @@
     padding: 0.5rem;
     align-items: center;
     font-size: 1.5rem;
-    color: #eee;
     background-color: var(--dark);
     cursor: pointer;
     margin: 1rem 1rem 0 0;
@@ -37,11 +36,13 @@
 
 .contact .social a span {
     font-size: 1rem;
+    color: #eee;
 }
 
 .contact .social a svg {
     display: inline-block;
     margin: 0 0.5rem;
+    fill: #eee;
 }
 
 .contact .email p:nth-child(2) {

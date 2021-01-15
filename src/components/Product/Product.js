@@ -54,7 +54,7 @@ function Product(props) {
             <button onClick={goRight}></button>
             <p>{props.name}</p>
             <p>{props.desc}</p>
-            <Link to="#" >
+            <Link to={"product/" + props.id} >
                 <button>More</button>
             </Link>
         </div>
