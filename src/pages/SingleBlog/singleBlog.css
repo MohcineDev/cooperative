@@ -1,0 +1,35 @@
+.singleblog {
+    background-color: #fff;
+    padding: 1rem;
+    max-width: 60%;
+    margin: 1rem auto;
+}
+
+.singleblog div {
+    text-align: right;
+}
+
+.singleblog .imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    margin: 2rem auto;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.singleblog .imgs img {
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.singleblog div span {
+    color: #cbb;
+}
+
+svg {
+    width: 20px;
+    vertical-align: bottom;
+    margin: 0 5px;
+}
