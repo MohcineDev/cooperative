@@ -1,13 +1,18 @@
 .process {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23f2f2f2' stroke-width='3.6' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.process-container {
     width: 80%;
-    margin: 2rem auto;
+    padding: 2rem;
+    margin: auto;
 }
 
 .process-wrap {
     display: grid;
     grid-template-columns: repeat(5, minmax(0px, 100%));
     grid-template-rows: repeat(2, minmax(1fr));
-    gap: 10px;
+    gap: 1rem;
     padding: 2rem 0;
 }
 
@@ -15,9 +20,15 @@
     background-color: #fff;
     border-radius: 10px;
     padding: 1rem;
-    border: 3px dashed #eee;
     display: flex;
+    box-shadow: 0 0 5px #ddd;
+    transition: box-shadow 0.3s;
 }
+
+.process-wrap>div:hover {
+    box-shadow: 5px 5px 5px #ddd;
+}
+ 
 
 .process-wrap>div:nth-child(1) {
     grid-area: 1/1/2/4;

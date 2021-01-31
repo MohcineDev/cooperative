@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './product.css'
 
 function Product(props) {
+    //#region 
     let i = 1
 
     function goLeft(e) {
@@ -38,16 +39,17 @@ function Product(props) {
             btn.disabled = false
         }
     }
+    //#endregion
 
     return (
         <div className="product">
             <div className="container">
                 <div className="wrapper">
-                    <img src={"../../imgs/" + props.img} id="f" alt="" />
-                    <img src={"../../imgs/" + props.img} alt="" />
-                    <img src={"../../imgs/" + props.img} alt="" />
-                    <img src={"../../imgs/" + props.img} alt="" />
-                    <img src={"../../imgs/" + props.img} id="l" alt="" />
+                    <img src={"../../imgs/" + props.img} id="f" alt="product img" />
+                    <img src={"../../imgs/" + props.img} alt="product img" />
+                    <img src={"../../imgs/" + props.img} alt="product img" />
+                    <img src={"../../imgs/" + props.img} alt="product img" />
+                    <img src={"../../imgs/" + props.img} id="l" alt="product img" />
                 </div>
             </div>
             <button onClick={goLeft}></button>

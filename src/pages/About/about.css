@@ -5,6 +5,7 @@
 
 .about h1 {
     text-align: center;
+    color:var(--dark);
 }
 
 .about>p {

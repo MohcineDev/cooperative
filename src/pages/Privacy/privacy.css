@@ -5,28 +5,32 @@
 }
 
 .privacy img {
-    width: 50%;
-    margin: 1rem 25%;
+    width: 40%;
+    display: block;
+    margin: 1rem auto;
+    min-width: 300px;
 }
-
-.privacy .title{
+.privacy h3{
+    font-size: 1.5rem;
+}
+.privacy .title {
     font-weight: 700;
 }
-.privacy ul li{
+
+.privacy ul li {
     margin: 1rem 0;
 }
- 
-.privacy>div{
+
+.privacy>div {
     display: grid;
     grid-template-columns: repeat(2, minmax(50%, 100%));
     gap: 1rem;
     align-items: center;
 }
 
-@media screen and (max-width: 768px){
-    .privacy>div{
+@media screen and (max-width: 768px) {
+    .privacy>div {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, minmax(50%, 100%));
     }
-
 }

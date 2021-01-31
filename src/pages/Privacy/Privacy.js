@@ -17,7 +17,7 @@ function Privacy(props) {
 
     return (
         <div className="privacy">
-            <img src={img} alt="" />
+            <img src={img} alt="privacy policy img" />
             <h3>Cooperative {name}</h3>
             <p className="title">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias neque sunt consequatur nesciunt ex ipsum odio quia expedita necessitatibus. Labore, error! Molestiae, corrupti! Doloremque fuga obcaecati numquam repudiandae beatae quia?

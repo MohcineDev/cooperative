@@ -5,6 +5,7 @@
 
 .shop h1 {
     text-align: center;
+    color: var(--dark);
 }
 
 .shop>p {

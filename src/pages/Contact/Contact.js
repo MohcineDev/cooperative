@@ -3,8 +3,8 @@ import { FaInstagram, FaFacebook, FaTwitter, FaSkype } from 'react-icons/fa'
 import './contact.css'
 
 function Contact() {
-    window.scrollTo(0, 0)
-
+   
+    
     function remove(a) {
         a.addEventListener('focus', function () {
             this.placeholder = ''
@@ -17,12 +17,11 @@ function Contact() {
     }
 
     useEffect(() => {
-
+        window.scrollTo(0, 0)
         document.querySelectorAll('input').forEach(a => remove(a))
         document.querySelectorAll('textarea').forEach(a => remove(a))
         document.querySelectorAll('input').forEach(a => display(a))
         document.querySelectorAll('textarea').forEach(a => display(a))
-
     }, [])
 
     return (

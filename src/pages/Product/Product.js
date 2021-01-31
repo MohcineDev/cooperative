@@ -1,19 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './product.css'
-import data from '../../pages/Shop/data.json'
+import data from '../Shop/data.json'
 
 function Product(props) {
-window.scrollTo(0,0)
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const id = props.match.params.id
     let a = data.filter((aa) => aa.id === id)
 
+    //#region 
     let i = 1
-
     function goLeft(e) {
         i--
-          move(e.target.parentElement.children[0], e.target)
-      console.log(e.target.parentElement.children[0]);
-          e.target.disabled = true
+        move(e.target.parentElement.children[0], e.target)
+        console.log(e.target.parentElement.children[0]);
+        e.target.disabled = true
     }
 
     function goRight(e) {
@@ -43,6 +46,7 @@ window.scrollTo(0,0)
             btn.disabled = false
         }
     }
+    //#endregion
 
     return (
         <div className="product-container">

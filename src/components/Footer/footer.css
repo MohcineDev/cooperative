@@ -7,9 +7,11 @@
     margin-top: 5rem;
     box-shadow: 0 -4px 10px rgb(61, 123, 165) inset;
 }
-.footer p,.footer a{
+
+.footer p, .footer a {
     color: #ffd;
 }
+
 .footer>div:first-child {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -18,7 +20,7 @@
     margin: 1.5rem auto;
 }
 
-.footer .links div a { 
+.footer .links div a {
     margin: 1rem 0;
     line-height: 1.5rem;
     transition: color 0.3s;
@@ -38,7 +40,7 @@
     padding: 0 2rem;
 }
 
-.copyright a {
+.copyright p a {
     color: #ffd;
     transition: color 0.3s;
     border-bottom: 1px solid #264463;
@@ -51,10 +53,8 @@
 .copyright svg {
     width: 30px;
     margin: 0 10px;
-    cursor: pointer;
-    transition: transform 1s;
 }
 
-.copyright svg:hover {
-    transform: rotate(360deg);
-}
+.copyright a:hover svg>circle:nth-of-type(1){
+    fill: #4a80c7 !important;
+} 

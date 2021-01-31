@@ -1,15 +1,15 @@
 .product {
-    border: 1px solid #ccc;
     background-color: #fff;
     border-radius: 0.5rem;
-    box-shadow: 0 0 5px #aaa;
+    box-shadow: 4px 0 8px #ccc;
     position: relative;
     padding: 0.5rem;
     width: 250px;
-    margin: 0.5rem;
+    margin: 0.6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .product .container {
@@ -24,8 +24,8 @@
 
 .product .container img {
     width: 100%;
-    transition: 0.5s;
-    height: 150px;
+    transition: transform 0.5s;
+    height: 170px;
 }
 
 .product .container .wrapper {
@@ -67,11 +67,7 @@
     text-transform: capitalize;
     color: var(--dark);
 }
-
-.product a {
-    display: inline-block;
-}
-
+ 
 .product a button {
     background-color: #eee;
     border: 1px solid #ccc;
