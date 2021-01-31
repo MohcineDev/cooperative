@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './faq.css'
 import img1 from '../../imgs/svg-6.svg'
 import { Link } from 'react-router-dom'
 
 function Faq() {
     //scroll bar top
-    window.scrollTo(0, 0)
-
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     function toggleAnswer(e) {
 
         Array.from(document.querySelectorAll('.answer'), a => a.classList.remove('show'))
@@ -27,17 +28,17 @@ function Faq() {
 
                 <div className="container">
                     <div onClick={toggleAnswer} className="question">
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elitamet consectetur.
                     </p>
                     </div>
                     <div className="answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem perspiciatis veniam eos sed exercitationem, qui unde error deleniti ea, suscipit, eveniet tenetur et! Quo totam assumenda et enim a officiis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem perspiciatisit amet consectetur adipisicing elit. Rem perspiciati s veniam eos sed exercitationem, qui unde error deleniti ea, suscipit, eveniet tenetur et! Quo totam assumenda et enim a officiis!</p>
                     </div>
                 </div>
 
                 <div className="container">
                     <div onClick={toggleAnswer} className="question">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Lorem ipsum dolor sit amet consectet sit amet consectetur adipisicing elit. Rem perspiciati ur adipisicing elit. </p>
                     </div>
 
                     <div className="answer">
@@ -46,11 +47,11 @@ function Faq() {
                 </div>
                 <div className="container">
                     <div onClick={toggleAnswer} className="question">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </div>
 
                     <div className="answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem perspiciatis veniam eos sed exercitationem, qui unde error deleniti ea, suscipit, eveniet tenetur et! Quo totam assumenda et enim a officiis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem perspiciatis sit amet consectetur adipisicing elit. Rem perspiciati veniam eos sed exercitationem, qui unde error deleniti ea, suscipit, eveniet tenetur et! Quo totam assumenda et enim a officiis!</p>
                     </div>
                 </div>
                 <div className="container">
