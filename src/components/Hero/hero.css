@@ -1,12 +1,9 @@
 .hero .container {
-    background: black;
-    background-image: url('../../imgs/trad.jpg');
-    background-repeat: no-repeat;
-    height: calc(100vh - 54px);
-    background-position: center;
-    background-size: cover;
     overflow-x: hidden;
     position: relative;
+    width: 100%;
+    height: calc(100vh - 54px);
+    background-color: rgb(10, 40, 60);
 }
 
 .hero .container::before {
@@ -24,17 +21,31 @@
 
 .hero .container .wrapper {
     position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
     display: grid;
-    grid-template-columns: repeat(5, 100%);
-    transform: translateX(-100%)
+    grid-template-columns: repeat(3, 100%);
+    width: 100%;
+    height: 100%;
+    transition: transform 2s;
 }
 
-.hero .container .wrapper img {
-    width: 100%;
+.first, .second, .third {
+    background-size: cover;
     height: calc(100vh - 54px);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.first {
+    background-image: url('../../imgs/sand.jpg');
+}
+
+.second {
+    background-image: url('../../imgs/trad.jpg');
+}
+
+.third {
+    background-attachment: fixed;
+    background-image: url('https://images.wallpaperscraft.com/image/laptop_keyboard_glow_170138_1280x720.jpg');
 }
 
 .hero .container>button {
@@ -54,43 +65,9 @@
     opacity: 1;
 }
 
-#prev, #next {
-    border: 2px solid #ddd;
-    font-size: 20px;
-}
-
-#prev {
-    left: 5%;
-}
-
-#next {
-    right: 5%;
-}
-
-#prev::after, #next::after {
-    content: "";
-    border: 15px solid;
-    box-sizing: border-box;
-    border-color: transparent white transparent transparent;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 4px;
-}
-
-#prev::after {
-    left: -5px;
-}
-
-#next::after {
-    transform: rotate(180deg);
-    right: -5px;
-}
-
 .content {
     position: relative;
     z-index: 2;
-    color: red !important;
     width: 70%;
     display: flex;
     grid-auto-columns: 1fr;
@@ -146,20 +123,17 @@
 
 .scroll {
     width: 25px;
-    height: 45px;
-    position: absolute;
     bottom: 30px;
-    border: 1px dashed #8de1ff;
+    height: 45px;
+    cursor: pointer;
+    position: absolute;
     border-radius: 12px;
+    border: 1px dashed #8de1ff;
+    animation: move 1.5s infinite linear;
     background: linear-gradient(#ddd, #1686d0);
-    background-size: 5px 15px;
     background-repeat: no-repeat;
     background-position: 10px 15px;
-    cursor: pointer;
-    animation-name: move;
-    animation-iteration-count: infinite;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
+    background-size: 5px 15px;
 }
 
 @keyframes move {
