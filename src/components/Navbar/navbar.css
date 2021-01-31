@@ -5,7 +5,7 @@ nav {
     justify-content: space-between;
 }
 
-nav a {
+nav a, nav span {
     padding: 1rem 0.5rem;
     color: azure;
     margin: 0 0.5rem;
@@ -29,9 +29,9 @@ nav>div a {
     overflow: hidden;
 }
 
-nav>div a:not(.active)::before {
-    box-sizing: border-box;
+nav>div>a:not(.active)::before {
     content: "";
+    box-sizing: border-box;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -40,10 +40,46 @@ nav>div a:not(.active)::before {
     transition: left 0.5s;
 }
 
-nav>div a:hover:before {
+nav>div a:hover::before {
     left: 0%;
 }
 
 nav .active {
     border-bottom: 4px solid #eee;
+}
+
+.socials {
+    position: relative;
+}
+
+.socials>div {
+    max-height: 0;
+    transition: max-height 0.5s;
+    position: absolute;
+    z-index: 10;
+    background-color: var(--dark);
+    overflow: hidden;
+    right: 3px;
+}
+
+.socials span {
+    display: block;
+}
+
+.socials:hover div {
+    max-height: 200px;
+}
+
+.socials>div a {
+    margin: 0;
+    padding: 5px;
+    position: relative;
+}
+
+.socials>div a:hover svg>circle:nth-of-type(1){
+    fill: #4a80c7 !important;
+}
+
+.socials>div a svg {
+    width: 25px;
 }
