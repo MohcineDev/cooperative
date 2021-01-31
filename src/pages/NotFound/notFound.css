@@ -1,0 +1,9 @@
+.NotFound{
+    height: 80vh;
+    text-align: center;
+}
+
+.NotFound h1{
+    font-size: 5rem;
+    color: var(--dark);
+}
