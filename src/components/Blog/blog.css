@@ -1,0 +1,23 @@
+.blog>a {
+    display: block;
+    background-color: #fff;
+    padding: 1rem;
+    max-width: 60%;
+    box-shadow: 0 0 5px #ddd;
+    border: 2px dashed #ddd;
+    margin: 1rem 0;
+}
+
+.blog a div h2 {
+    text-align: left;
+    margin: 0;
+}
+
+.blog a div div {
+    text-align: right;
+}
+
+.blog a div div p {
+    margin: 0;
+    color: #cbb;
+}
