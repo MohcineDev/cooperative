@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
-import './hero.css' 
+import './hero.css'
 
-function Hero() {
-
+function Hero(props) {
     const toBottom = () => {
         window.scrollTo(
             {
@@ -15,8 +14,10 @@ function Hero() {
     useEffect(() => {
         let i = 1
         let slideInterval = setInterval(() => {
-            if (i < 3) {
-                document.querySelector('.wrapper').style.transform = `translateX(${i * -100}% )`
+            if (window.location.pathname == "/") {
+                if (i < 3) {
+                    document.querySelector('.wrapper').style.transform = `translateX(${i * -100}% )`
+                }
             }
             i++
             if (i > 3) {
@@ -26,7 +27,7 @@ function Hero() {
             console.log(i);
         }, 3500);
     }, [])
- 
+
     return (
         <div className="hero">
             <div className='container'>
