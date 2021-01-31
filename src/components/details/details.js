@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './g_details.css'
 import data from './data.json'
 
 function Details(props) {
+    useEffect(() => {
 
-    window.scrollTo(0, 0)
+        window.scrollTo(0, 0)
+    }, [])
 
     let key = parseInt(props.match.params.id)
     let list = data.find(item => item.id === key)
