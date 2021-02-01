@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Product from '../../components/Product/Product'
 import './shop.css'
 import product from './data.json'
 
 function Shop() {
-    window.scrollTo(0, 0)
+    useEffect(()=>{
+
+        window.scrollTo(0, 0)
+    },[])
     
     return (
         <div className="shop">

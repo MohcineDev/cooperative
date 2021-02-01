@@ -6,14 +6,15 @@ function SingleBlog(props) {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-    let elem = data.filter(blog => blog.id == props.match.params.id)
-console.log(elem);
+
+    let elem = data.filter(blog => blog.id === parseInt(props.match.params.id))
+
     return (
         <div className="singleblog">
             <h2>{elem[0].title}</h2>
             <p>{elem[0].header}</p>
             <div className="imgs">
-                {elem[0].imgs.map((item, index) => <img key={index} src={item} alt="item image" />)}
+                {elem[0].imgs.map((item, index) => <img key={index} src={item} alt="blog" />)}
             </div>
             <p>{elem[0].content}</p>
             <div>

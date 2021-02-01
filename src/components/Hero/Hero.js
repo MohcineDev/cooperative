@@ -14,7 +14,7 @@ function Hero(props) {
     useEffect(() => {
         let i = 1
         let slideInterval = setInterval(() => {
-            if (window.location.pathname == "/") {
+            if (window.location.pathname === "/") {
                 if (i < 3) {
                     document.querySelector('.wrapper').style.transform = `translateX(${i * -100}% )`
                 }
