@@ -4,8 +4,8 @@ import './shop.css'
 import product from './data.json'
 
 function Shop() {
+    
     useEffect(()=>{
-
         window.scrollTo(0, 0)
     },[])
     

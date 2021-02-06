@@ -6,9 +6,9 @@ function Product(props) {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
+    let id   = props.match.params.id
+    let a  = data.filter((aa) => aa.id === id)
 
-    const id = props.match.params.id
-    let a = data.filter((aa) => aa.id === id)
 
     //#region 
     let i = 1
@@ -52,11 +52,11 @@ function Product(props) {
         <div className="product-container">
             <div className="container">
                 <div className="wrapper">
-                    <img src={"../../imgs/" + a[0].img} id="f" alt="" />
-                    <img src={"../../imgs/" + a[0].img} alt="" />
-                    <img src={"../../imgs/" + a[0].img} alt="" />
-                    <img src={"../../imgs/" + a[0].img} alt="" />
-                    <img src={"../../imgs/" + a[0].img} id="l" alt="" />
+                    <img src={ '../../' +a[0].img} id="f" alt="" />
+                    <img src={ '../../' +a[0].img} alt="" />
+                    <img src={ '../../' +a[0].img} alt="" />
+                    <img src={ '../../' +a[0].img} alt="" />
+                    <img src={ '../../' +a[0].img} id="l" alt="" />
                 </div>
                 <button onClick={goLeft}></button>
                 <button onClick={goRight}></button>

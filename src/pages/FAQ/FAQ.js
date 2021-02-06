@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-import './faq.css'
-import img1 from '../../imgs/svg-6.svg'
+import './faq.css'  
 import { Link } from 'react-router-dom'
 
 function Faq() {
@@ -83,7 +82,7 @@ function Faq() {
                 </div>
             </div>
             <div className='more'>
-                <img src={img1} alt='more question!' />
+                <img src="imgs/svg-6.svg" alt='more question!' />
                 <div>
                     <h3>Still have a question!</h3>
                     <p>

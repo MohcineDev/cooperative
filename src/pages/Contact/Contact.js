@@ -3,8 +3,7 @@ import { FaInstagram, FaFacebook, FaTwitter, FaSkype } from 'react-icons/fa'
 import './contact.css'
 
 function Contact() {
-   
-    
+
     function remove(a) {
         a.addEventListener('focus', function () {
             this.placeholder = ''
@@ -24,6 +23,9 @@ function Contact() {
         document.querySelectorAll('textarea').forEach(a => display(a))
     }, [])
 
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
     return (
         <div className='contact'>
             <h2>Contact Us</h2>
@@ -43,7 +45,7 @@ function Contact() {
             </div>
             <div className="form">
 
-                <form action="">
+                <form action="" onSubmit={(e) => handleSubmit(e)}>
                     <div className='row'>
                         <input type="text" placeholder="First Name" aria-label="First Name" maxLength="20" />
                         <input type="text" placeholder="Last Name" aria-label="Last Name" maxLength="20" />

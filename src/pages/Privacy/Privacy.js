@@ -1,18 +1,19 @@
-import React from 'react'
-import './privacy.css'
-import privacy from '../../imgs/svg-7.svg'
-import del from '../../imgs/on.svg'
-
+import React, { useEffect } from 'react'
+import './privacy.css' 
+ 
 function Privacy(props) {
-    window.scrollTo(0, 0)
+     let a  =window.location.pathname
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[a])
 
     console.log(props.location.pathname.substring(1));
-    const pathname = props.location.pathname.substring(1)
+    const locPathname = props.location.pathname.substring(1)
     let name = 'Shipping Policy'
-    let img = del
-    if (pathname === 'privacy') {
+    let img = "imgs/on.svg"
+    if (locPathname === 'privacy') {
         name = 'Privacy Policy'
-        img = privacy
+        img = 'imgs/svg-7.svg' 
     }
 
     return (

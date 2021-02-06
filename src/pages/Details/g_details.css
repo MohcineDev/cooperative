@@ -1,0 +1,34 @@
+ .details {
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .details h1 {
+     text-align: center;
+     text-transform: capitalize;
+ }
+
+ .d-wrapper, .d-container {
+     display: grid;
+ }
+
+ .d-row {
+     display: grid;
+     grid-template-columns: repeat(2, minmax(0px, 50%));
+     gap: 2rem;
+     padding: 2rem 0;
+     grid-template-rows: 350px;
+ }
+
+ .d-row div {
+     overflow: hidden;
+     border-radius: 1rem;
+ }
+
+ .d-row:not(.d-row:nth-child(3)) {
+     border-bottom: 2px dashed #ddd;
+ }
+
+ .d-row img {
+     width: 100%;
+ }

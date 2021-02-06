@@ -1,9 +1,5 @@
 import React from 'react'
-import './process.css'
-import cart from '../../imgs/cart.svg'
-import del from '../../imgs/del.svg'
-import setting from '../../imgs/setting.svg'
-import arrows from '../../imgs/arrows.svg'
+import './process.css' 
 
 function Process() {
     return (
@@ -13,28 +9,28 @@ function Process() {
                 <h2>Our Work Process</h2>
                 <div className="process-wrap">
                     <div>
-                        <img src={cart} alt="" />
+                        <img src='imgs/cart.svg' alt="" />
                         <div>
                             <h3>1 Title here</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ad quisquam? Corrupti magnam tempore maxime debitis reprehenderit delectus. Adipisci ipsum, natus praesentium sint a unde obcaecati deleniti? Necessitatibus, deserunt rem.</p>
                         </div>
                     </div>
                     <div>
-                        <img src={del} alt="" />
+                        <img src='imgs/del.svg' alt="" />
                         <div>
                             <h3>2 Title here</h3>
                             <p> dipisicing elit. Animi, ad quisquam? Corrupti magnam tempore maxime debitis reprehenderit delectus. Adipisci ipsum, natus praesentium sint a unde obcaecati deleniti? Necessitatibus, deserunt rem.</p>
                         </div>
                     </div>
                     <div>
-                        <img src={arrows} alt="" />
+                        <img src='imgs/arrows.svg' alt="" />
                         <div>
                             <h3>Something here</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ad quisquam? Corrupti magnam tempore maxime debitis reprehenderit delectus..</p>
                         </div>
                     </div>
                     <div>
-                        <img src={setting} alt="" />
+                        <img src='imgs/setting.svg' alt="" />
                         <div>
                             <h3>Title here</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ad quisquam? Corrupti magnam tempore maxime debitis reprehenderit delectus. Adipisci ipsum, natus praesentium sint a unde obcaecati deleniti? Necessitatibus, deserunt rem.</p>

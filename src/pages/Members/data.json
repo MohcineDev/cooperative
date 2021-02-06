@@ -1,6 +1,6 @@
 [
     {
-        "img": "profile/0.png",
+        "img": "imgs/profile/0.webp",
         "name": "name here",
         "social": [
             {
@@ -23,7 +23,7 @@
         "desc": "small desc here small desc here small desc here small desc here"
     },
     {
-        "img": "profile/1.png",
+        "img": "imgs/profile/1.webp",
         "name": "moh cin",
         "social": [
             {
@@ -42,7 +42,7 @@
         "desc": "small desc here small desc here small desc here small desc here"
     },
     {
-        "img": "profile/2.png",
+        "img": "imgs/profile/2.webp",
         "name": "Mohcine dev",
         "social": [
             {
@@ -57,7 +57,7 @@
         "desc": "small desc here small desc here small desc here small desc here"
     },
     {
-        "img": "profile/3.png",
+        "img": "imgs/profile/3.webp",
         "name": "someone else",
         "social": [
             {
@@ -80,7 +80,7 @@
         "desc": "small desc here small desc here small desc small desc small desc here small desc here"
     },
     {
-        "img": "profile/0.png",
+        "img": "imgs/profile/0.webp",
         "name": "name here",
         "social": [
             {
@@ -103,7 +103,7 @@
         "desc": "small desc here small desc here small desc here small desc here"
     },
     {
-        "img": "profile/4.png",
+        "img": "imgs/profile/4.webp",
         "name": "moh cin",
         "social": [
             {
@@ -123,7 +123,7 @@
         "desc": "small desc here small desc  soluta consequatur eum  soluta consequatur eum here small desc here"
     },
     {
-        "img": "profile/3.png",
+        "img": "imgs/profile/3.webp",
         "name": "some one",
         "social": [
             {
@@ -138,7 +138,7 @@
         "desc": "small desc here small desc here small desc here small desc here"
     },
     {
-        "img": "profile/5.png",
+        "img": "imgs/profile/5.webp",
         "name": "another one",
         "social": [
             {

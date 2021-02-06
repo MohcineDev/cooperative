@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "sahara travel tour",
+        "img1": "../../imgs/sand.webp",
+        "img2": "../../imgs/c.webp",
+        "img3": "../../imgs/on.svg"
+    },
+    {
+        "id": 2,
+        "title": "lights image here",
+        "img1": "../../imgs/lights.webp",
+        "img2": "../../imgs/trad.webp",
+        "img3": "../../imgs/terre.webp"
+    },
+    {
+        "id": 3,
+        "title": "terre img here",
+        "img1": "../../imgs/terre.webp",
+        "img2": "../../imgs/Navigation.svg",
+        "img3": "../../imgs/terre.webp"
+    },
+    {
+        "id": 4,
+        "title": "sahara travel tour",
+        "img1": "../../imgs/forest.webp",
+        "img2": "../../imgs/forest.webp",
+        "img3": "../../imgs/on.svg"
+    },
+    {
+        "id": 5,
+        "title": "sahara travel tour",
+        "img1": "../../imgs/trad.webp",
+        "img2": "../../imgs/forest.webp",
+        "img3": "../../imgs/lights.webp"
+    }
+]

@@ -36,16 +36,16 @@
 }
 
 .first {
-    background-image: url('../../imgs/sand.jpg');
+    background-image: url('../../imgs/sand.webp');
 }
 
 .second {
-    background-image: url('../../imgs/trad.jpg');
+    background-image: url('../../imgs/trad.webp');
 }
 
 .third {
     background-attachment: fixed;
-    background-image: url('../../imgs/lights.jpg');  
+    background-image: url('../../imgs/road.webp');  
 }
 
 .hero .container>button {

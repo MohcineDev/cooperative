@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import details from './components/details/details';
+import Details from './pages/Details/Details';
 import Footer from './components/Footer/Footer';
 import Navbar from "./components/Navbar/Navbar";
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import About from './pages/About/About';
 import Blogs from './pages/Blogs/Blogs.js';
 import Contact from './pages/Contact/Contact';
@@ -28,13 +29,15 @@ function App() {
         <Route path='/shop' component={Shop} />
         <Route path='/about' component={About} />
         <Route path='/shipping-policy' component={Privacy} />
-        <Route path='/details/:id' component={details} />
+        <Route path='/details/:id' component={Details} />
         <Route path='/product/:id' component={Product} />
         <Route path='/blog' exact component={Blogs} /> {/* important to add exact */}
         <Route path='/blog/:id' component={SingleBlog} />
 
         <Route component={NotFound} />
       </Switch>
+      <ScrollToTop />
+
       <Footer />
 
     </BrowserRouter>

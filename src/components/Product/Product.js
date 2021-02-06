@@ -45,18 +45,18 @@ function Product(props) {
         <div className="product">
             <div className="container">
                 <div className="wrapper">
-                    <img src={"../../imgs/" + props.img} id="f" alt="product img" />
-                    <img src={"../../imgs/" + props.img} alt="product img" />
-                    <img src={"../../imgs/" + props.img} alt="product img" />
-                    <img src={"../../imgs/" + props.img} alt="product img" />
-                    <img src={"../../imgs/" + props.img} id="l" alt="product img" />
+                    <img src={props.img} id="f" alt="product img" />
+                    <img src={props.img} alt="product img" />
+                    <img src={props.img} alt="product img" />
+                    <img src={props.img} alt="product img" />
+                    <img src={props.img} id="l" alt="product img" />
                 </div>
             </div>
             <button onClick={goLeft}></button>
             <button onClick={goRight}></button>
             <p>{props.name}</p>
             <p>{props.desc}</p>
-            <Link to={"product/" + props.id} >
+            <Link to={"product/" + props.id}>
                 <button>More</button>
             </Link>
         </div>
