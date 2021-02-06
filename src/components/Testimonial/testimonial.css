@@ -1,0 +1,143 @@
+.testimonial {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonial p {
+    text-align: center;
+}
+
+.testimonial .container {
+    position: relative;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.testimonial .tes_wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 300px);
+    gap: 1rem 2rem;
+    transform: translateX(-300px);
+    transition: transform 0.7s;
+    /* animation: move 20s infinite linear; */
+}
+
+.testimonial .container::before, .testimonial .container::after {
+    content: "";
+    width: 150px;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 8;
+}
+.testimonial .container::before {
+    left: 0;
+    background: linear-gradient(90deg, #f9f9f9, transparent);
+}
+.testimonial .container::after {
+    right: 0;
+    background: linear-gradient(-90deg, #f9f9f9, transparent);
+}
+
+.testimonial .tes_wrapper>div {
+    width: 300px;
+    min-height: 200px;
+    border: 1px dashed #eee;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@keyframes moving {
+    100% {
+        transform: translate(calc(-300px * 4.5));
+    }
+}
+
+.btn {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1.2rem;
+    border-radius: 5px;
+    background: rgb(25, 25, 25);
+    cursor: pointer;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+#prev, #next {
+    border: 2px solid #ddd;
+    font-size: 20px;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+#prev::after, #next::after {
+    content: "";
+    border: 15px solid;
+    box-sizing: border-box;
+    border-color: white transparent transparent transparent;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+}
+
+#prev::after {
+    transform: rotate(90deg);
+    left: -5px;
+}
+
+#next::after {
+    transform: rotate(-90deg);
+    right: -5px;
+}
+
+/* .testimonial .tes_wrapper div#f, .testimonial .tes_wrapper div:nth-child(8){
+    background-color: green ;
+}
+
+.testimonial .tes_wrapper div#l, .testimonial .tes_wrapper div:nth-child(2){
+    background-color: yellow;
+} */
+
+.tes_wrapper .top {
+    display: flex;
+    align-items: center;
+}
+
+.tes_wrapper .top img {
+    border: 2px solid rgb(34, 154, 252);
+    border-radius: 50%;
+    width: 20%;
+    margin-right: 5px;
+}
+
+.tes_wrapper .top .name p {
+    margin: 0;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.tes_wrapper .top .name p:nth-child(1) {
+    font-weight: 700;
+}
+
+.tes_wrapper>div>p {
+    color: gray;
+}
