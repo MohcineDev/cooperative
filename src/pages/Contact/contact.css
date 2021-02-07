@@ -2,7 +2,8 @@
     width: 80%;
     margin: 0 auto;
 }
-.contact h2{
+
+.contact h2 {
     text-align: left;
 }
 
@@ -21,6 +22,7 @@
 .contact .social a {
     display: flex;
     padding: 0.5rem;
+    width: 120px;
     align-items: center;
     font-size: 1.5rem;
     background-color: var(--dark);
@@ -101,4 +103,28 @@
 
 .contact form .row input {
     width: 100%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        width: 90%;
+    }
+    .contact form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact form .row {
+        grid-template-columns: repeat(1, minmax(0, 100%));
+        gap: 0;
+    }
+    .social {
+        justify-content: center;
+    }
+    .contact form input[type="submit"] {
+        width: 80%;
+    }
 }

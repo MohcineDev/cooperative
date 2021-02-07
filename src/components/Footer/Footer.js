@@ -12,7 +12,7 @@ function Footer() {
                     <p>Conditions</p>
                     <p><Link to='/shop'>Shop</Link></p>
                     <p><Link to='/blog'>Blog</Link></p>
-                    <p><Link to='privacy'>privacy policy</Link></p>
+                    <p><Link to='/privacy'>privacy policy</Link></p>
                     <p>Something here</p>
                 </div>
                 <div>

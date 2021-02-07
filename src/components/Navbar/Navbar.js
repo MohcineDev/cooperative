@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './navbar.css'
 
 function Navbar() {
+
+    useEffect(() => {
+        let btn = document.querySelector('#btn')
+        btn.addEventListener('click', function () {
+            this.classList.toggle('rotate')
+            document.querySelector('nav>div').classList.toggle('show')
+        console.log(22);
+        })
+
+        
+    })
+
     return (
         <nav>
             <Link to='/' className='logo'>Cooperative</Link>
@@ -48,7 +60,11 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-
+            <svg id="btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <polygon fill="#fff" points="4 8 4 13 50 13 50 8 " />
+                <polygon fill="#fff" points="4 20 4 25 50 25 50 20 " />
+                <polygon fill="#fff" points="4 32 4 37 50 37 50 32 " />
+            </svg>
         </nav>
     )
 }

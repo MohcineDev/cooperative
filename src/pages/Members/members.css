@@ -1,3 +1,8 @@
+.members {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .members .row {
     display: grid;
     grid-template-columns: repeat(4, minmax(0px, 100%));
@@ -12,11 +17,6 @@
     color: #777;
 }
 
-.members {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .member {
     background-color: #fff;
     border-radius: 1rem;
@@ -26,7 +26,6 @@
     box-shadow: 0 0 5px #ddd;
     align-items: center;
     transition: box-shadow 0.5s;
-
 }
 
 .member:hover {
@@ -38,7 +37,7 @@
     height: 140px;
     padding: 1rem;
     border: 1px dashed var(--dark);
-    border-radius: 50%;
+    border-radius: 25% 0;
 }
 
 .member .social img {
@@ -50,6 +49,14 @@
     font-weight: 600;
     font-size: 1.3rem;
     color: var(--dark);
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.member>p:nth-of-type(2) {
+    color: gray;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #eee;
 }
 
 .member .social {
@@ -58,6 +65,24 @@
     justify-content: space-around;
 }
 
-.member p:nth-of-type(2) {
-    color: gray;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1000px) {
+    .members .row {
+        grid-template-columns: repeat(2, minmax(0px, 100%));
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .members {
+        width: 90%;
+    }
+    .members>p {
+        text-align: center;
+        width: 100%;
+    }
+    .members .row {
+        grid-template-columns: repeat(1, minmax(0px, 80%));
+        justify-content: center;
+    }
 }

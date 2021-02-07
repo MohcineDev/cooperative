@@ -1,22 +1,22 @@
 [
     {
         "img": "imgs/profile/0.webp",
-        "name": "name here",
+        "name": "Member name here",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             },
             {
-                "icon": "linkedin.svg",
+                "icon": "imgs/linkedin.svg",
                 "link": "https://www.linkedin.com"
             },
             {
-                "icon": "gPlus.svg",
+                "icon": "imgs/gPlus.svg",
                 "link": "https://www.gPlus.com"
             },
             {
-                "icon": "skype.svg",
+                "icon": "imgs/skype.svg",
                 "link": "https://www.skype.com"
             }
         ],
@@ -27,15 +27,15 @@
         "name": "moh cin",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             }, 
             {
-                "icon": "gPlus.svg",
+                "icon": "imgs/gPlus.svg",
                 "link": "https://www.gPlus.com"
             },
             {
-                "icon": "skype.svg",
+                "icon": "imgs/skype.svg",
                 "link": "https://www.skype.com"
             }
         ],
@@ -46,11 +46,11 @@
         "name": "Mohcine dev",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             },
             {
-                "icon": "linkedin.svg",
+                "icon": "imgs/linkedin.svg",
                 "link": "https://www.linkedin.com"
             } 
         ],
@@ -61,62 +61,62 @@
         "name": "someone else",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             },
             {
-                "icon": "linkedin.svg",
+                "icon": "imgs/linkedin.svg",
                 "link": "https://www.linkedin.com"
             },
             {
-                "icon": "gPlus.svg",
+                "icon": "imgs/gPlus.svg",
                 "link": "https://www.gPlus.com"
             },
             {
-                "icon": "skype.svg",
+                "icon": "imgs/skype.svg",
                 "link": "https://www.skype.com"
             }
         ],
         "desc": "small desc here small desc here small desc small desc small desc here small desc here"
     },
     {
-        "img": "imgs/profile/0.webp",
+        "img": "imgs/profile/4.webp",
         "name": "name here",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             },
             {
-                "icon": "linkedin.svg",
+                "icon": "imgs/linkedin.svg",
                 "link": "https://www.linkedin.com"
             },
             {
-                "icon": "gPlus.svg",
+                "icon": "imgs/gPlus.svg",
                 "link": "https://www.gPlus.com"
             },
             {
-                "icon": "skype.svg",
+                "icon": "imgs/skype.svg",
                 "link": "https://www.skype.com"
             }
         ],
         "desc": "small desc here small desc here small desc here small desc here"
     },
     {
-        "img": "imgs/profile/4.webp",
+        "img": "imgs/profile/5.webp",
         "name": "moh cin",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             },
             
             {
-                "icon": "gPlus.svg",
+                "icon": "imgs/gPlus.svg",
                 "link": "https://www.gPlus.com"
             },
             {
-                "icon": "skype.svg",
+                "icon": "imgs/skype.svg",
                 "link": "https://www.skype.com"
             }
         ],
@@ -127,34 +127,34 @@
         "name": "some one",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             },
             {
-                "icon": "skype.svg",
+                "icon": "imgs/skype.svg",
                 "link": "https://www.skype.com"
             }
         ],
         "desc": "small desc here small desc here small desc here small desc here"
     },
     {
-        "img": "imgs/profile/5.webp",
+        "img": "imgs/profile/4.webp",
         "name": "another one",
         "social": [
             {
-                "icon": "behance.svg",
+                "icon": "imgs/behance.svg",
                 "link": "https://www.behance.com"
             },
             {
-                "icon": "linkedin.svg",
+                "icon": "imgs/linkedin.svg",
                 "link": "https://www.linkedin.com"
             },
             {
-                "icon": "gPlus.svg",
+                "icon": "imgs/gPlus.svg",
                 "link": "https://www.gPlus.com"
             },
             {
-                "icon": "skype.svg",
+                "icon": "imgs/skype.svg",
                 "link": "https://www.skype.com"
             }
         ],

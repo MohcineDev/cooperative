@@ -60,6 +60,7 @@ nav .active {
     background-color: var(--dark);
     overflow: hidden;
     right: 3px;
+    top: 50px;
 }
 
 .socials span {
@@ -76,10 +77,70 @@ nav .active {
     position: relative;
 }
 
-.socials>div a:hover svg>circle:nth-of-type(1){
+.socials>div a:hover svg>circle:nth-of-type(1) {
     fill: #4a80c7 !important;
 }
 
 .socials>div a svg {
     width: 25px;
+}
+
+nav>svg {
+    width: 25px;
+    right: 15px;
+    top: 10px;
+    margin-right: 1rem;
+    cursor: pointer;
+    display: none;
+    transition: transform 0.3s;
+}
+
+@media screen and (max-width: 760px) {
+    nav>div {
+        margin-right: 0;
+        position: absolute;
+        background-color: var(--dark);
+        flex-direction: column;
+        align-items: center;
+        top: 25px;
+        right: 2rem;
+        max-height: 0px;
+        overflow: hidden;
+        border-radius: 5px;
+        transition: max-height 0.3s;
+        z-index: 12;
+    }
+    nav a{
+        padding: 0.7rem 2rem;
+    }
+    nav>svg {
+        display: block;
+    }
+    .show {
+        max-height: 200px;
+        overflow: visible;
+    }
+    .rotate {
+        transform: rotate(90deg);
+    }
+    .rotate polygon:nth-child(1) {
+        fill: #fd7979;
+        transform: rotate(-45deg);
+        transform-origin: 35px 20px;
+        stroke-width: 3px;
+        stroke: red;
+    }
+    .rotate polygon:nth-child(2) {
+        display: none;
+    }
+    .rotate polygon:nth-child(3) {
+        fill: #fd7979;
+        transform: rotate(45deg);
+        transform-origin: 45px 20px;
+        stroke-width: 3px;
+        stroke: red;
+    }
+    .socials {
+        display: none;
+    }
 }

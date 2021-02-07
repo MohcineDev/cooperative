@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './members.css'
 import member from './data.json'
+import Member from '../../components/Member/Member'
 
 function Members() {
     useEffect(() => {
@@ -15,104 +16,21 @@ function Members() {
             </p>
             <div className='container'>
                 <div className="row">
-                    <div className="member">
-                        <img src={ member[0].img} alt="member 1" />
-                        <p>{member[0].name}</p>
-                        <div className="social">
-                            {
-                                member[0].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[0].desc}
-                        </p>
-                    </div>
-                    <div className="member">
-                        <img src={ member[1].img} alt="member 1" />
-                        <p>{member[1].name}</p>
-                        <div className="social">
-                            {
-                                member[1].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[1].desc}
-                        </p>
-                    </div>
-                    <div className="member">
-                        <img src={ member[2].img} alt="member 1" />
-                        <p>{member[2].name}</p>
-                        <div className="social">
-                            {
-                                member[2].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[2].desc}
-                        </p>
-                    </div>
-                    <div className="member">
-                        <img src={ member[3].img} alt="member 1" />
-                        <p>{member[3].name}</p>
-                        <div className="social">
-                            {
-                                member[3].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[3].desc}
-                        </p>
-                    </div>
+                    <Member img={member[0].img} name={member[0].name} social={member[0].social} desc={member[0].desc} />
+                    <Member img={member[1].img} name={member[1].name} social={member[1].social} desc={member[1].desc} />
+                    <Member img={member[2].img} name={member[2].name} social={member[2].social} desc={member[2].desc} />
+                    <Member img={member[3].img} name={member[3].name} social={member[3].social} desc={member[3].desc} />
                 </div>
                 <div className="row">
-                    <div className="member">
-                        <img src={ member[4].img} alt="member 1" />
-                        <p>{member[4].name}</p>
-                        <div className="social">
-                            {
-                                member[4].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[4].desc}
-                        </p>
-                    </div>
-                    <div className="member">
-                        <img src={ member[5].img} alt="member 1" />
-                        <p>{member[5].name}</p>
-                        <div className="social">
-                            {
-                                member[5].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[5].desc}
-                        </p>
-                    </div>
-                    <div className="member">
-                        <img src={ member[6].img} alt="member 1" />
-                        <p>{member[6].name}</p>
-                        <div className="social">
-                            {
-                                member[6].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[6].desc}
-                        </p>
-                    </div>
-                    <div className="member">
-                        <img src={ member[7].img} alt="member 1" />
-                        <p>{member[7].name}</p>
-                        <div className="social">
-                            {
-                                member[7].social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="" /></a>)
-                            }
-                        </div>
-                        <p className='desc'>
-                            {member[7].desc}
-                        </p>
-                    </div>
+                    <Member img={member[4].img} name={member[4].name} social={member[4].social} desc={member[4].desc} />
+                    <Member img={member[5].img} name={member[5].name} social={member[5].social} desc={member[5].desc} />
+                    <Member img={member[6].img} name={member[6].name} social={member[6].social} desc={member[6].desc} />
+                    <Member img={member[7].img} name={member[7].name} social={member[7].social} desc={member[7].desc} />
+
+                </div>   <div className="row">
+                    <Member img={member[2].img} name={member[2].name} social={member[2].social} desc={member[2].desc} />
+                    <Member img={member[3].img} name={member[3].name} social={member[3].social} desc={member[3].desc} />
+                     
                 </div>
             </div>
         </div>
