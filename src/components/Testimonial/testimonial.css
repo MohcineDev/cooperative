@@ -19,7 +19,6 @@
     gap: 1rem 2rem;
     transform: translateX(-300px);
     transition: transform 0.7s;
-    /* animation: move 20s infinite linear; */
 }
 
 .testimonial .container::before, .testimonial .container::after {
@@ -30,10 +29,12 @@
     position: absolute;
     z-index: 8;
 }
+
 .testimonial .container::before {
     left: 0;
     background: linear-gradient(90deg, #f9f9f9, transparent);
 }
+
 .testimonial .container::after {
     right: 0;
     background: linear-gradient(-90deg, #f9f9f9, transparent);
@@ -140,4 +141,12 @@
 
 .tes_wrapper>div>p {
     color: gray;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+    .testimonial {
+        width: 95%;
+    }
 }

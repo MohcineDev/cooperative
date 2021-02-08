@@ -5,7 +5,7 @@ function Categories() {
     return (
         <div id="categories" className="cat-container">
              
-            <h2>what are we doing here</h2>
+            <h2>Community Influence</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus cumque laudantium dignissimos numquam accusantium perferendis delectus. Vero, quos reiciendis corrupti quisquam sunt vel amet at iure, eaque, optio nobis!</p>
             <div className="categories">
                 <div className="row">
@@ -24,8 +24,7 @@ function Categories() {
                         <h3>The Title here</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus cumque laudantium dignissimos numquam accusantium perferendis delectus. Vero</p>
                     </div>
-                </div>
-                <div className="row">
+                 
                     <div>
                         <img src="imgs/forest.webp" alt="category item" />
                         <h3>category here</h3>
