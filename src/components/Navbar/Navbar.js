@@ -9,10 +9,8 @@ function Navbar() {
         btn.addEventListener('click', function () {
             this.classList.toggle('rotate')
             document.querySelector('nav>div').classList.toggle('show')
-        console.log(22);
+            console.log(22);
         })
-
-        
     })
 
     return (
@@ -35,11 +33,11 @@ function Navbar() {
                                 <circle cx="35.04" cy="14.96" r="1.96" style={{ fill: '#fff' }} />
                             </svg>
                         </a>
-                        <a href="https://www.facebook.com" rel="noreferrer" target="_blank">
+                        <a href="https://twitter.com/MohcineDev" rel="noreferrer" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-                                <title>facebook</title>
+                                <title>twitter</title>
                                 <circle style={{ fill: "#30619f" }} cx="25" cy="25" r="25" transform="translate(-0.36 0.36) rotate(-0.82)" />
-                                <path style={{ fill: '#fff' }} d="M27.2,19.15V16.78a1.25,1.25,0,0,1,1.31-1.42h3.32V10.28l-4.57,0c-5.08,0-6.23,3.79-6.23,6.21v2.68H18.09v5.92h3V39.88H27V25.07h4.4l.21-2.33.33-3.59Z" />
+                                <path style={{ fill: '#fff' }} d="M39.81,17.37a12,12,0,0,1-3.49.94A6,6,0,0,0,39,15a12.15,12.15,0,0,1-3.86,1.46,6,6,0,0,0-10.35,5.45,17.32,17.32,0,0,1-12.52-6.25,5.84,5.84,0,0,0-.83,3,6,6,0,0,0,2.71,5,6.11,6.11,0,0,1-2.76-.75V23a5.78,5.78,0,0,0,.42,2.17,6.06,6.06,0,0,0,4.46,3.7,6.05,6.05,0,0,1-1.6.21,6.31,6.31,0,0,1-1.15-.11,6.06,6.06,0,0,0,5.68,4.15,12.29,12.29,0,0,1-7.55,2.57,11.64,11.64,0,0,1-1.45-.09,17.4,17.4,0,0,0,9.32,2.69A16.91,16.91,0,0,0,36.38,24.85a16.52,16.52,0,0,0,.41-3.61c0-.26,0-.51,0-.77A12.4,12.4,0,0,0,39.81,17.37Z" />
                             </svg>
                         </a>
                         <a href="https://wa.me/+21260000000?text=salam Hi" rel="noreferrer" target="_blank">

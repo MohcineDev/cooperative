@@ -6,7 +6,7 @@ function ScrollToTop() {
     useEffect(() => {
         let scroll = document.querySelector('.scrollToTop')
         window.addEventListener('scroll', () => {
-            if (window.scrollY >= window.innerHeight * 2) {
+            if (window.scrollY >= window.innerHeight * 1.5) {
                 scroll.style.display = 'block'
             }
             else

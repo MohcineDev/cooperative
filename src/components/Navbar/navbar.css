@@ -102,7 +102,7 @@ nav>svg {
         background-color: var(--dark);
         flex-direction: column;
         align-items: center;
-        top: 25px;
+        top: 3rem;
         right: 2rem;
         max-height: 0px;
         overflow: hidden;
