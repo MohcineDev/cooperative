@@ -7,8 +7,7 @@ import Testimonial from '../components/Testimonial/Testimonial'
 
 function Home() {
     useEffect(() => {
-        // window.scrollTo(0, 0)
-
+          window.scrollTo(0, 0) 
     }, [])
     return (
         <>
