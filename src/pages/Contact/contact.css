@@ -15,8 +15,6 @@
     box-shadow: 0 0 5px #aaa;
 }
 
-{}
-
 .social {
     display: flex;
     flex-wrap: wrap;
@@ -50,11 +48,15 @@
     fill: #eee;
 }
 
-.contact .email p:nth-child(2) {
+.contact .email a {
     background-color: #ddd;
     border-left: 7px solid #ccc;
     padding: 7px;
     width: max-content;
+}
+
+.contact .email svg {
+    cursor: pointer;
 }
 
 .contact form {
@@ -98,6 +100,8 @@
     width: 50%;
     transition: 0.3s;
     letter-spacing: 2px;
+    border: 1px dashed #ddd;
+    box-shadow: 0 0 0px 3px var(--dark);
 }
 
 .contact form [type="submit"]:hover {
@@ -146,7 +150,7 @@
     }
     100% {
         margin-top: 6rem;
-    opacity: 1;
+        opacity: 1;
     }
 }
 
