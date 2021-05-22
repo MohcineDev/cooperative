@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
 import './g_details.css'
 import data from './data.json'
- 
+
 function Details(props) {
+
+    // gallery page details
     useEffect(() => {
         window.scrollTo(0, 0)
 
@@ -11,7 +13,7 @@ function Details(props) {
     let list = data.find(item => item.id === key)
 
     return (
-        <div className="details">
+        <section className="details">
             <h1>{list.title}</h1>
             <div className="d-container">
                 <div className="d-row">
@@ -49,7 +51,7 @@ function Details(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

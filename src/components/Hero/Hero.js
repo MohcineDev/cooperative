@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
 import './hero.css'
 
-function Hero(props) {
+function Hero() {
+
+    // scroll to the second section
     const toBottom = () => {
         window.scrollTo(
             {
@@ -30,9 +32,9 @@ function Hero(props) {
         <div className="hero">
             <div className='container'>
                 <div className="wrapper">
-                    <div className="first"></div>
-                    <div className="second"></div>
-                    <div className="third"></div>
+                    <div className="first-bg"></div>
+                    <div className="second-bg"></div>
+                    <div className="third-bg"></div>
                 </div>
                 <div className="content">
                     <h1>The Cooperative Title</h1>
