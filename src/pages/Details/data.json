@@ -2,36 +2,124 @@
     {
         "id": 1,
         "title": "sahara travel tour",
-        "img1": "../../imgs/sand.webp",
-        "img2": "../../imgs/c.webp",
-        "img3": "../../imgs/on.svg"
+        "row": [
+            {
+                "img": "../../imgs/sand.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/lights.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/on.svg",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            }
+        ]
     },
     {
         "id": 2,
-        "title": "lights image here",
-        "img1": "../../imgs/lights.webp",
-        "img2": "../../imgs/trad.webp",
-        "img3": "../../imgs/terre.webp"
+        "title": "image title here",
+        "row": [
+            {
+                "img": "../../imgs/lights.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/trad.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/terre.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            }
+        ]
     },
     {
         "id": 3,
-        "title": "terre img here",
-        "img1": "../../imgs/terre.webp",
-        "img2": "../../imgs/Navigation.svg",
-        "img3": "../../imgs/terre.webp"
+        "title": "image title here",
+        "row": [
+            {
+                "img": "../../imgs/terre.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "date": "12/5/2020",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/Navigation.svg",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "date": "12/5/2020",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/terre.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "date": "12/5/2020",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            }
+        ]
     },
     {
         "id": 4,
-        "title": "sahara travel tour",
-        "img1": "../../imgs/forest.webp",
-        "img2": "../../imgs/forest.webp",
-        "img3": "../../imgs/on.svg"
+        "title": "image title here",
+        "row": [
+            {
+                "img": "../../imgs/forest.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/forest.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/on.svg",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            }
+        ]
     },
     {
         "id": 5,
         "title": "sahara travel tour",
-        "img1": "../../imgs/trad.webp",
-        "img2": "../../imgs/forest.webp",
-        "img3": "../../imgs/lights.webp"
+        "row": [
+            {
+                "img": "../../imgs/trad.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/forest.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            },
+            {
+                "img": "../../imgs/lights.webp",
+                "alt": "img desc",
+                "title": "Sub title here",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum asperiores ullam quidem unde consequatur culpa eius dicta itaque hic totam impedit nostrum eligendi, minus veniam dolorum! Dignissimos, corrupti impedit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, aliquam sint. Et sed reprehenderit voluptatem dicta culpa expedita fuga laborum minima sit, corporis dolores ut dolor, necessitatibus ipsa alias quibusdam."
+            }
+        ]
     }
 ]
