@@ -92,6 +92,6 @@
         grid-area: 2/2/3/3;
     }
     .copyright {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
