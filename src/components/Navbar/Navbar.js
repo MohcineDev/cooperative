@@ -1,22 +1,22 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './navbar.css'
+import { Logo } from './style.js'
 
 function Navbar() {
 
-    useEffect(() => {
-        let btn = document.querySelector('#btn')
-        btn.addEventListener('click', function () {
-            this.classList.toggle('rotate')
-            document.querySelector('nav>div').classList.toggle('show')
-            console.log(22);
-        })
-    })
+    const [display, setDisplay] = useState(false)
+
+    // remove useEffect and toggle method because it's not working properly
+    //this way is better
+    const displayNav = () => {
+        setDisplay(!display)
+    }
 
     return (
         <nav>
-            <Link to='/' className='logo'>Cooperative</Link>
-            <div>
+            <Logo to='/'>Cooperative</Logo>
+            <div className={display ? 'show' : null}>
                 <NavLink to='/shop'>Shop</NavLink>
                 <NavLink to='/contact'>Contact</NavLink>
                 <NavLink to='/faq'>FAQs</NavLink>
@@ -58,7 +58,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-            <svg id="btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+            <svg id="btn" className={display ? 'rotate' : null} onClick={displayNav} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                 <polygon fill="#fff" points="4 8 4 13 50 13 50 8 " />
                 <polygon fill="#fff" points="4 20 4 25 50 25 50 20 " />
                 <polygon fill="#fff" points="4 32 4 37 50 37 50 32 " />
