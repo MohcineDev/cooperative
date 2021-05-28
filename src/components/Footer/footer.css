@@ -91,7 +91,14 @@
     .footer .links div:nth-child(3) {
         grid-area: 2/2/3/3;
     }
-    .copyright {
-        flex-direction: column-reverse;
+    .footer p {
+        font-size: 14px;
+        margin: 8px 0;
     }
-}
+    .footer>div:first-child div>p:first-child {
+        font-size: 1rem;
+    }
+        .copyright {
+            flex-direction: column-reverse;
+        }
+    }
