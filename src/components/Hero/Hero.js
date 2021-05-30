@@ -12,20 +12,28 @@ function Hero() {
             }
         )
     }
-    
+
     useEffect(() => {
-        let i = 1
-        let slideInterval = setInterval(() => {
-            if (window.location.pathname === "/") {
-                if (i < 3) {
-                    document.querySelector('.wrapper').style.transform = `translateX(${i * -100}% )`
+
+        if (document.visibilityState === 'visible') {
+
+            let i = 1
+            let slideInterval = setInterval(() => {
+                if (window.location.pathname === "/") {
+                    if (i < 3) {
+                        document.querySelector('.wrapper').style.transform = `translateX(${i * -100}% )`
+                    }
                 }
-            }
-            i++
-            if (i > 3) {
-                clearInterval(slideInterval)
-            }
-        }, 3500);
+                i++
+                if (i > 3) {
+                    clearInterval(slideInterval)
+                }
+            }, 3500);
+
+        }
+
+        
+
     }, [])
 
     return (
