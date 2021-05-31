@@ -1,14 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import './footer.css'
 import { Copyright, Email, FooterDiv, Links, Title, Svg, A } from './style.js'
 
 function Footer() {
     let year = new Date().getFullYear()
 
     return (
-        <FooterDiv className='footer'>
-            <Links className='links'>
+        <FooterDiv>
+            <Links>
                 <div>
                     <Title>Conditions</Title>
                     <p><A to='/shop'>Shop</A></p>
@@ -30,7 +28,7 @@ function Footer() {
                     <p><A to='/shipping-policy' title="our Shipping policy">Shipping policy</A></p>
                 </div>
             </Links>
-            <Copyright className="copyright">
+            <Copyright>
                 <p>Copyright &copy; {year}  <Email href="https://github.com/MohcineDev" target="_blank" rel="noreferrer">MohcineDev</Email>
                 </p>
                 <div>
