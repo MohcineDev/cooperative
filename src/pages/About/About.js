@@ -2,7 +2,9 @@ import React from 'react'
 import './about.css'
 
 function About() {
+
     window.scrollTo(0, 0)
+    document.title = 'Cooperative | About'
 
     return (
         <div className="about">
@@ -17,7 +19,7 @@ function About() {
                 </svg>
                 <p className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias neque sunt consequatur nesciunt ex ipsum odio quia expedita necessitatibus. Labore, error! Molestiae, corrupti! Doloremque fuga obcaecati numquam repudiandae beatae quia?
-            </p>
+                </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, et? Numquam placeat aut illum cupiditate sapiente ipsam quae asperiores, exercitationem saepe odit magni quas molestias vero ullam voluptatibus facilis ab.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, et? Numquam placeat aut illum cupiditate sapiente ipsam quae asperiores, exercitationem saepe odit magni quas molestias vero ullam voluptatibus facilis ab.</p>
                 <ul>
@@ -28,13 +30,13 @@ function About() {
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore?
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore? <br /><br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore? <br /><br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis earum repudiandae? Aut, magnam eum nemo, recusandae eveniet nisi consectetur aliquam exercitationem, odio reiciendis voluptatum sit? Quo ullam temporibus labore?
                 </p>
                 <p className="title">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias neque sunt consequatur nesciunt ex ipsum odio quia expedita necessitatibus. Labore, error! Molestiae, corrupti! Doloremque fuga obcaecati numquam repudiandae beatae quia?
-            </p>
+                </p>
                 <div >
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum saepe cumque, sequi corrupti non ducimus vel fuga modi provident sapiente, at qui voluptate, adipisci hic explicabo repellat velit sit exercitationem?</p>

@@ -6,8 +6,10 @@
     box-shadow: 0 0 4px #ccc;
 }
 
-.singleblog h2 {
+.singleblog h1 {
     text-transform: capitalize;
+    font-size: var(--h1-size);
+    text-align: center;
 }
 
 .singleblog div {
@@ -39,15 +41,17 @@
     color: #cbb;
 }
 
-svg {
+.singleblog svg {
     width: 20px;
     vertical-align: bottom;
     margin: 0 5px;
 }
 
-.content {
+.singleblog p {
+    text-indent: 20px;
     white-space: pre-line;
 }
+
 
 /* Medium devices */
 

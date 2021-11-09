@@ -1,13 +1,19 @@
 .members {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.members .row {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0px, 100%));
-    gap: 1rem;
+.members h1{
+    text-align: center;
+    font-size: var(--h1-size);
+    margin-top: 2rem;
+}
+
+.members .wrapper {
+    display: flex;
+    flex-wrap: wrap;
     margin: 3rem 0;
+    justify-content: center;
 }
 
 .members>p {
@@ -17,72 +23,13 @@
     color: #777;
 }
 
-.member {
-    background-color: #fff;
-    border-radius: 1rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 5px #ddd;
-    align-items: center;
-    transition: box-shadow 0.5s;
-}
-
-.member:hover {
-    box-shadow: 5px 5px 5px #ddd;
-}
-
-.member>img {
-    width: 140px;
-    height: 140px;
-    padding: 1rem;
-    border: 1px dashed var(--dark);
-    border-radius: 25% 0;
-}
-
-.member .social img {
-    width: 30px;
-}
-
-.member p:nth-of-type(1) {
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 1.3rem;
-    color: var(--dark);
-    margin: 0;
-    margin-top: 1rem;
-}
-
-.member>p:nth-of-type(2) {
-    color: gray;
-    padding-bottom: 10px;
-    border-bottom: 5px solid #eee;
-}
-
-.member .social {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (max-width: 1000px) {
-    .members .row {
-        grid-template-columns: repeat(2, minmax(0px, 100%));
-    }
-}
 
 @media only screen and (max-width:560px) {
     .members {
         width: 90%;
     }
     .members>p {
-        text-align: center;
         width: 100%;
     }
-    .members .row {
-        grid-template-columns: repeat(1, minmax(0px, 80%));
-        justify-content: center;
-    }
+    
 }

@@ -1,163 +1,210 @@
-[
-    {
-        "img": "imgs/profile/0.webp",
-        "name": "Member name here",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            },
-            {
-                "icon": "imgs/linkedin.svg",
-                "link": "https://www.linkedin.com"
-            },
-            {
-                "icon": "imgs/gPlus.svg",
-                "link": "https://www.gPlus.com"
-            },
-            {
-                "icon": "imgs/skype.svg",
-                "link": "https://www.skype.com"
-            }
-        ],
-        "desc": "small desc here small desc here small desc here small desc here"
-    },
-    {
-        "img": "imgs/profile/1.webp",
-        "name": "moh cin",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            }, 
-            {
-                "icon": "imgs/gPlus.svg",
-                "link": "https://www.gPlus.com"
-            },
-            {
-                "icon": "imgs/skype.svg",
-                "link": "https://www.skype.com"
-            }
-        ],
-        "desc": "small desc here small desc here small desc here small desc here"
-    },
-    {
-        "img": "imgs/profile/2.webp",
-        "name": "Mohcine dev",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            },
-            {
-                "icon": "imgs/linkedin.svg",
-                "link": "https://www.linkedin.com"
-            } 
-        ],
-        "desc": "small desc here small desc here small desc here small desc here"
-    },
-    {
-        "img": "imgs/profile/3.webp",
-        "name": "someone else",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            },
-            {
-                "icon": "imgs/linkedin.svg",
-                "link": "https://www.linkedin.com"
-            },
-            {
-                "icon": "imgs/gPlus.svg",
-                "link": "https://www.gPlus.com"
-            },
-            {
-                "icon": "imgs/skype.svg",
-                "link": "https://www.skype.com"
-            }
-        ],
-        "desc": "small desc here small desc here small desc small desc small desc here small desc here"
-    },
-    {
-        "img": "imgs/profile/4.webp",
-        "name": "name here",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            },
-            {
-                "icon": "imgs/linkedin.svg",
-                "link": "https://www.linkedin.com"
-            },
-            {
-                "icon": "imgs/gPlus.svg",
-                "link": "https://www.gPlus.com"
-            },
-            {
-                "icon": "imgs/skype.svg",
-                "link": "https://www.skype.com"
-            }
-        ],
-        "desc": "small desc here small desc here small desc here small desc here"
-    },
-    {
-        "img": "imgs/profile/5.webp",
-        "name": "moh cin",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            },
-            
-            {
-                "icon": "imgs/gPlus.svg",
-                "link": "https://www.gPlus.com"
-            },
-            {
-                "icon": "imgs/skype.svg",
-                "link": "https://www.skype.com"
-            }
-        ],
-        "desc": "small desc here small desc  soluta consequatur eum  soluta consequatur eum here small desc here"
-    },
-    {
-        "img": "imgs/profile/3.webp",
-        "name": "some one",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            },
-            {
-                "icon": "imgs/skype.svg",
-                "link": "https://www.skype.com"
-            }
-        ],
-        "desc": "small desc here small desc here small desc here small desc here"
-    },
-    {
-        "img": "imgs/profile/4.webp",
-        "name": "another one",
-        "social": [
-            {
-                "icon": "imgs/behance.svg",
-                "link": "https://www.behance.com"
-            },
-            {
-                "icon": "imgs/linkedin.svg",
-                "link": "https://www.linkedin.com"
-            },
-            {
-                "icon": "imgs/gPlus.svg",
-                "link": "https://www.gPlus.com"
-            },
-            {
-                "icon": "imgs/skype.svg",
-                "link": "https://www.skype.com"
-            }
-        ],
-        "desc": "small desc here small desc here small  soluta consequatur eum  soluta consequatur eum  desc here small desc here"
-    }
-]
+{
+    "members": [
+        {
+            "img": "imgs/profile/0.webp",
+            "name": "Member name here",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/linkedin.svg",
+                    "link": "https://www.linkedin.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/1.webp",
+            "name": "moh cin",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/2.webp",
+            "name": "Mohcine dev",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/linkedin.svg",
+                    "link": "https://www.linkedin.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/3.webp",
+            "name": "someone else",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/linkedin.svg",
+                    "link": "https://www.linkedin.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc small desc small desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/4.webp",
+            "name": "name here",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/linkedin.svg",
+                    "link": "https://www.linkedin.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/5.webp",
+            "name": "moh cin",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc  soluta consequatur eum  soluta consequatur eum here small desc here"
+        },
+        {
+            "img": "imgs/profile/3.webp",
+            "name": "some one",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/4.webp",
+            "name": "another one",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/linkedin.svg",
+                    "link": "https://www.linkedin.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small  soluta consequatur eum  soluta consequatur eum  desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/2.webp",
+            "name": "someone else",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/linkedin.svg",
+                    "link": "https://www.linkedin.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc small desc small desc here small desc here"
+        },
+        {
+            "img": "imgs/profile/1.webp",
+            "name": "name here",
+            "social": [
+                {
+                    "icon": "imgs/behance.svg",
+                    "link": "https://www.behance.com"
+                },
+                {
+                    "icon": "imgs/linkedin.svg",
+                    "link": "https://www.linkedin.com"
+                },
+                {
+                    "icon": "imgs/gPlus.svg",
+                    "link": "https://www.gPlus.com"
+                },
+                {
+                    "icon": "imgs/skype.svg",
+                    "link": "https://www.skype.com"
+                }
+            ],
+            "desc": "small desc here small desc here small desc here small desc here"
+        }
+    ]
+}

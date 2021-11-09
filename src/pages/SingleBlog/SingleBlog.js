@@ -3,20 +3,21 @@ import './singleBlog.css'
 import data from '../Blogs/data.json'
 
 function SingleBlog(props) {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
 
+    window.scrollTo(0, 0)
     let elem = data.filter(blog => blog.id === parseInt(props.match.params.id))
+    useEffect(() => {
+        document.title = `Cooperative | ${elem[0].title}`
+    }, [elem])
 
     return (
         <div className="singleblog">
-            <h2>{elem[0].title}</h2>
+            <h1>{elem[0].title}</h1>
             <p>{elem[0].header}</p>
             <div className="imgs">
                 {elem[0].imgs.map((item, index) => <img key={index} src={item} alt="blog" />)}
             </div>
-            <p className="content">{elem[0].content}</p>
+            <p>{elem[0].content}</p>
             <div>
                 <span>Share On:</span>
                 <a href="https://www.instagram.com" rel="noreferrer" target="_blank">

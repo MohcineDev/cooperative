@@ -1,0 +1,53 @@
+.member {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 3px #ddd;
+    transition: box-shadow 0.5s;
+    width: 250px;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.member:hover {
+    box-shadow: 3px 3px 5px #ddd;
+}
+
+.member .content img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    display: block;
+    padding: 0.5rem;
+    border: 1px dashed #aaa;
+    border-radius: 50%;
+}
+
+.member h2, .member p:nth-of-type(1) {
+    margin: 0;
+    text-align: center;
+}
+
+.member h2 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-size: var(--h2-size);
+    color: var(--dark);
+    margin-top: 0.5rem;
+}
+
+.member p:nth-of-type(1) {
+    color: #aaa;
+}
+
+.member .social {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member .social img {
+    width: 25px;
+}

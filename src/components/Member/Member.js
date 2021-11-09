@@ -1,20 +1,28 @@
 import React from 'react'
+import './member.css'
 
-function Member({img, name, social, desc}) {
+function Member({ img, name, social, desc }) {
     return (
         <div className="member">
-        <img src={ img} alt="member 1" />
-        <p>{name}</p>
-        <p>speciality field</p>
-        <div className="social">
-            {
-                social.map((item, i) => <a key={i} href={item.link} target="_blanc"> <img src={ item.icon} alt="social link" /></a>)
-            }
+            <div className="content">
+                <img src={img} alt="member profile" />
+                <h2>{name}</h2>
+                <p>speciality field</p>
+                <p>
+                    {desc}
+                </p>
+            </div>
+            <div className="social">
+                {
+                    social.map((item, i) =>
+                        <a key={i} href={item.link} rel="noreferrer" target="_blank">
+                            <img src={item.icon} alt="social media link" />
+                        </a>
+                    )
+                }
+            </div>
+
         </div>
-        <p className='desc'>
-            {desc}
-        </p>
-    </div>
     )
 }
 

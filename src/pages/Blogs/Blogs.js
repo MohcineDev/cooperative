@@ -6,6 +6,9 @@ import data from './data.json'
 function Blogs() {
     // scroll to top
     useEffect(() => {
+        document.title = `CooperativeN | Blogs`
+
+
         window.scrollTo(0, 0)
     }, [])
 

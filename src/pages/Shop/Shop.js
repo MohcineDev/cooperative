@@ -6,6 +6,7 @@ import product from './data.json'
 function Shop() {
     
     useEffect(()=>{
+        document.title  = 'CooperativeN | Shop'
         window.scrollTo(0, 0)
     },[])
     

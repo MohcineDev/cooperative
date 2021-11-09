@@ -15,12 +15,12 @@ function Navbar() {
 
     return (
         <Nav>
-            <Logo to='/'>Cooperative</Logo>
+            <Logo to='/'>CooperativeName</Logo>
             <LinksWrap className={display ? 'show' : null}>
                 <Links to='/shop'>Shop</Links>
-                <Links to='/contact'>Contact</Links>
-                <Links to='/faq'>FAQs</Links>
                 <Links to='/blog'>Blog</Links>
+                <Links to='/contact'>Contact</Links>
+                <Links to='/members'>Members</Links>
                 <Socials className="socials">
                     <Span>M</Span>
                     <SocialLinks>

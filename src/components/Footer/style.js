@@ -11,13 +11,13 @@ const FooterDiv = styled.div`
     box-shadow: 0 -4px 10px #3d7ba5 inset;
 
     a, p{
-        color: #ffd;
-
+        color:#eee;
     }
-    
+
     @media only screen and (max-width: 768px) {
         padding: 0.8rem 0.5rem;
     }
+    
     @media only screen and (max-width: 500px) {
         clip-path: none;
 
@@ -54,10 +54,9 @@ const Links = styled.div`
     }
 `
 
-const Title = styled.p`
-    font-size: 1.1rem;
+const Title = styled.h3`
     font-weight: 600;
-    color: #afc7ff;
+    color: #fff;
 
     @media only screen and (max-width: 500px) {
         font-size: 1rem !important;
@@ -67,10 +66,11 @@ const A = styled(Link)`
     margin: 1rem 0;
     line-height: 1.5rem;
     transition: color 0.3s;
-
+    display:block;
+    text-transform:capitalize;
+ 
     &:hover{
-    color: #afc7ff !important;
-
+        color: #fff;
     }
 `
 const Copyright = styled.div`
@@ -81,7 +81,7 @@ const Copyright = styled.div`
     padding: 0 2rem;
 
     a:hover svg>circle:nth-of-type(1) {
-        fill: #4a80c7 !important;
+        fill: #eee !important;
     }
     @media only screen and (max-width: 768px) {       
         margin-top: 3rem;
@@ -107,8 +107,6 @@ const Email = styled.a`
 const Svg = styled.svg`
     width: 30px;
     margin: 0 10px;
-
-     
 `
 
 export {

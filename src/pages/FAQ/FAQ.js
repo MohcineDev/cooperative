@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 function Faq() {
     //scroll bar top
     useEffect(() => {
+        document.title  = 'CooperativeN | Faqs'
+
         window.scrollTo(0, 0)
     }, [])
     function toggleAnswer(e) {

@@ -13,6 +13,8 @@ function Contact() {
     }
 
     useEffect(() => {
+        document.title = `CooperativeN | Contact us`
+
         window.scrollTo(0, 0)
         // document.querySelectorAll('input:not([type=submit]), textarea').forEach(item => remove(item))
         // document.querySelectorAll('input:not([type=submit]), textarea').forEach(input => display(input))
