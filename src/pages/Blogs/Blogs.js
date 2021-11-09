@@ -4,9 +4,11 @@ import Blog from '../../components/Blog/Blog.js'
 import data from './data.json'
 
 function Blogs() {
+    // scroll to top
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
+
     return (
         <div className="blog">
             <h1>Blogs Section</h1>
@@ -22,13 +24,17 @@ function Blogs() {
                     <option value="Something else">Something else else</option>
                 </select>
             </form>
-
-            <Blog id={data[0].id} title={data[0].title} short={data[0].short_description} date={data[0].date} />
-            <Blog id={data[1].id} title={data[1].title} short={data[1].short_description} date={data[1].date} />
-            <Blog id={data[2].id} title={data[2].title} short={data[2].short_description} date={data[2].date} />
-            <Blog id={data[3].id} title={data[3].title} short={data[3].short_description} date={data[3].date} />
-            <Blog id={data[4].id} title={data[4].title} short={data[4].short_description} date={data[4].date} />
-
+            {
+                data.map(item =>  
+                    <Blog
+                        key={item.id}
+                        id={item.id}
+                        title={item.title}
+                        short={item.short_description}
+                        date={item.date} />
+                )
+            }
+ 
         </div>
     )
 }

@@ -16,7 +16,7 @@ function SingleBlog(props) {
             <div className="imgs">
                 {elem[0].imgs.map((item, index) => <img key={index} src={item} alt="blog" />)}
             </div>
-            <p>{elem[0].content}</p>
+            <p className="content">{elem[0].content}</p>
             <div>
                 <span>Share On:</span>
                 <a href="https://www.instagram.com" rel="noreferrer" target="_blank">
