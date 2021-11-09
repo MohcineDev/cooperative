@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 :root {
   --light: #f9f9f9;
-  --dark: #0c2f5f;
+  --dark: #3C85B5;
+  --h1-size: 1.7rem;
+  --h2-size: 1.30rem;
+  --h3-size: 1.1rem;
+  --h4-size: 0.8rem;
 }
 
 * {
@@ -33,18 +37,21 @@ a {
   color: #444;
 }
 
+h1, h2 {
+  text-transform: capitalize;
+  color: var(--dark);
+}
+
 h1 {
   font-size: 3rem;
 }
 
 h2 {
-  font-size: 2rem;
   text-align: center;
-  color: var(--dark);
 }
 
 h3 {
-  color: #1653aa;
+  font-size: var(--h3-size);
 }
 
 p {
