@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-const FooterDiv = styled.div`
+const FooterDiv = styled.footer`
     background-color: var(--dark);
     color: #ffd;
     padding: 1.5rem;
@@ -9,7 +9,6 @@ const FooterDiv = styled.div`
     overflow: visible;
     margin-top: 5rem;
     box-shadow: 0 -4px 10px #3d7ba5 inset;
-
     a, p{
         color:#eee;
     }
@@ -29,14 +28,12 @@ const FooterDiv = styled.div`
 `
 
 const Links = styled.div`
-    width: 80%;
+    max-width:1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin: 1.5rem auto;
-    @media only screen and (max-width: 768px) {
-        width: 95%;
-    }
+    
 
     @media only screen and (max-width: 500px) {
         grid-template-columns: repeat(2, 1fr);
@@ -77,12 +74,18 @@ const Copyright = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3rem;
+    margin: 3rem auto 0;
     padding: 0 2rem;
+    max-width:1200px;
 
+    svg{
+        width: 25px;
+        margin: 0 5px;
+    }
     a:hover svg>circle:nth-of-type(1) {
         fill: #eee !important;
     }
+   
     @media only screen and (max-width: 768px) {       
         margin-top: 3rem;
         padding: 0 10px;
@@ -103,18 +106,12 @@ const Email = styled.a`
       
 
 `
-
-const Svg = styled.svg`
-    width: 30px;
-    margin: 0 10px;
-`
-
+  
 export {
     FooterDiv,
     Links,
     Title,
     A,
     Copyright,
-    Email,
-    Svg
+    Email 
 }

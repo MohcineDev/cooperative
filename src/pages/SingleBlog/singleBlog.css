@@ -1,7 +1,7 @@
 .singleblog {
     background-color: #fff;
     padding: 1rem;
-    width: 60%;
+    max-width: 900px;
     margin: 1rem auto;
     box-shadow: 0 0 4px #ccc;
 }
@@ -11,10 +11,7 @@
     font-size: var(--h1-size);
     text-align: center;
 }
-
-.singleblog div {
-    text-align: right;
-}
+ 
 
 .singleblog .imgs {
     display: grid;
@@ -37,7 +34,11 @@
     transform: scale(1.1);
 }
 
-.singleblog div span {
+.singleblog .share {
+    margin-top: 2.5rem;
+    text-align: right;
+}
+.singleblog .share span {
     color: #cbb;
 }
 
@@ -51,12 +52,17 @@
     text-indent: 20px;
     white-space: pre-line;
 }
-
+.err{
+    min-height: 50vh;
+}
 
 /* Medium devices */
 
 @media only screen and (max-width: 768px) {
     .singleblog {
         width: 90%;
+    }
+    .singleblog .imgs {
+        width: 100%;
     }
 }

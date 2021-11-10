@@ -65,7 +65,7 @@ const Links = styled(NavLink)`
         position: absolute;
         bottom: 0;
         left: -100%;
-        border-bottom: 4px solid #1265be;
+        border-bottom: 4px solid #ddd;
         transition: left 0.5s;
     }
     &:hover::before {
@@ -80,8 +80,9 @@ const Socials = styled.div`
     position: relative;
     &:hover>div {
         max-height: 200px;
+        border-radius:0 0 5px 5px;
     }
-    @media screen and (max-width: 760px) {
+        @media screen and (max-width: 760px) {
         display: none;
     }
 `
@@ -93,28 +94,28 @@ const SocialLinks = styled.div`
     z-index: 10;
     background-color: var(--dark);
     overflow: hidden;
-    right: 3px;
+    right: 5px;
     top: 50px;
-`
 
-const Span = styled.span`
-    ${AandSpan}
-    display: block;
-`
+    a{
+        margin: 0;
+        padding: 5px;
+        display: block;
+        position: relative;
+    }
 
-const Account = styled.a`
-    margin: 0;
-    padding: 5px;
-    display: block;
-    position: relative;
-
-    &:hover svg>circle:nth-of-type(1) {
-        fill: #4a80c7 !important;
+    a:hover svg>circle:nth-of-type(1) {
+        fill: #eee !important;
     }
 
     svg {
         width: 25px;
     }
+`
+
+const Span = styled.span`
+    ${AandSpan}
+    display: block;
 `
 
 const DisplayNavBtn = styled.svg`
@@ -139,7 +140,6 @@ export {
     Links,
     Socials,
     SocialLinks,
-    Account,
     DisplayNavBtn
 
 

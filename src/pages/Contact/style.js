@@ -5,7 +5,6 @@ const ContactDiv = styled.div`
     width: 80%;
     margin: 0 auto;
     position: relative;
-
     
     @media only screen and (max-width: 768px) {
         width: 90%;
@@ -44,22 +43,22 @@ const A = styled.a`
     background-color: var(--dark);
     cursor: pointer;
     margin: 1rem 1.2rem 0 0;
-    border: 2px dashed #ddd;
+    border: 2px dashed #eee;
     box-shadow: 0 0 0px 5px var(--dark);
 
     &:hover{
-        border: 2px dashed #fff;
+        border-color:#fff;
     }
 `
 
 const Span = styled.span`
     font-size: 1rem;
-    color: #eee;
+    color: #fff;
 `
 const SvgStyle = `
     display: inline-block;
     margin: 0 0.5rem;
-    fill: #eee;
+    fill: #fff;
 `
 const Instagram = styled(FaInstagram)`
     ${SvgStyle}

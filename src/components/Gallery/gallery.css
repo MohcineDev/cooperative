@@ -1,6 +1,10 @@
 .gallery {
     padding: 1.5rem 0;
 }
+.gallery h2{
+font-size: var(--h2-size);
+margin: 2rem 0;
+}
 
 .gallery-img {
     display: grid;

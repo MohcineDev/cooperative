@@ -6,7 +6,7 @@ function Member({ img, name, social, desc }) {
         <div className="member">
             <div className="content">
                 <img src={img} alt="member profile" />
-                <h2>{name}</h2>
+                <h3>{name}</h3>
                 <p>speciality field</p>
                 <p>
                     {desc}

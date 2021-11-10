@@ -7,13 +7,11 @@ function Blogs() {
     // scroll to top
     useEffect(() => {
         document.title = `CooperativeN | Blogs`
-
-
         window.scrollTo(0, 0)
     }, [])
 
     return (
-        <div className="blog">
+        <div className="blogs">
             <h1>Blogs Section</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sapiente animi veniam neque quasi praesentium nam quo fuga ea doloremque impedit tenetur et delectus, inventore accusamus enim libero corporis? Animi!</p>
 
@@ -28,7 +26,7 @@ function Blogs() {
                 </select>
             </form>
             {
-                data.map(item =>  
+                data.blogs.map(item =>
                     <Blog
                         key={item.id}
                         id={item.id}
@@ -37,7 +35,7 @@ function Blogs() {
                         date={item.date} />
                 )
             }
- 
+
         </div>
     )
 }

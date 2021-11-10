@@ -1,86 +1,102 @@
-[
-    {
-        "id": "1513154",
-        "img": "imgs/c.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "496512",
-        "img": "imgs/a.webp",
-        "name": "name here",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "15468",
-        "img": "imgs/q.webp",
-        "name": "something here",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "48795",
-        "img": "imgs/c.webp",
-        "name": "name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "22546",
-        "img": "imgs/q.webp",
-        "name": "enter name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "174998",
-        "img": "imgs/b.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "2777935",
-        "img": "imgs/q.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description like the product description or name"
-    },
-    {
-        "id": "135460",
-        "img": "imgs/qq.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "23546",
-        "img": "imgs/b.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "854068",
-        "img": "imgs/a.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "40875",
-        "img": "imgs/b.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product product product description or name"
-    },
-    {
-        "id": "135990",
-        "img": "imgs/qq.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description or name"
-    },
-    {
-        "id": "1749918",
-        "img": "imgs/qq.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description product or name"
-    },
-    {
-        "id": "277795",
-        "img": "imgs/q.webp",
-        "name": "Product Name",
-        "desc": "Something here like the product description or Product Name description or Product Name"
-    }
-]
+{
+    "category1": [
+        {
+            "id": "1513154",
+            "img": "imgs/c.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "496512",
+            "img": "imgs/a.webp",
+            "name": "name here",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "15468",
+            "img": "imgs/q.webp",
+            "name": "something here",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "48795",
+            "img": "imgs/c.webp",
+            "name": "name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "22546",
+            "img": "imgs/q.webp",
+            "name": "enter name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "174998",
+            "img": "imgs/b.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "2777935",
+            "img": "imgs/q.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description like the product description or name"
+        },
+        {
+            "id": "27779535",
+            "img": "imgs/q.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description like the product description or name"
+        },
+        {
+            "id": "2377935",
+            "img": "imgs/q.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description like the product description or name"
+        }
+    ],
+    "category2": [
+        {
+            "id": "135460",
+            "img": "imgs/qq.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "23546",
+            "img": "imgs/b.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "854068",
+            "img": "imgs/a.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "40875",
+            "img": "imgs/b.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product product product description or name"
+        },
+        {
+            "id": "135990",
+            "img": "imgs/qq.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description or name"
+        },
+        {
+            "id": "1749918",
+            "img": "imgs/qq.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description product or name"
+        },
+        {
+            "id": "277795",
+            "img": "imgs/q.webp",
+            "name": "Product Name",
+            "desc": "Something here like the product description or Product Name description or Product Name"
+        } 
+    ]
+}

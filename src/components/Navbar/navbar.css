@@ -3,20 +3,20 @@
          transform: rotate(90deg);
      }
      .rotate polygon:nth-child(1) {
-         fill: #fd7979;
+         fill: cyan;
          transform: rotate(-45deg);
          transform-origin: 35px 20px;
          stroke-width: 3px;
-         stroke: red;
+         stroke: cyan;
      }
      .rotate polygon:nth-child(2) {
          display: none;
      }
      .rotate polygon:nth-child(3) {
-         fill: #fd7979;
+         fill: cyan;
          transform: rotate(45deg);
          transform-origin: 45px 20px;
          stroke-width: 3px;
-         stroke: red;
+         stroke: cyan;
      }
  }

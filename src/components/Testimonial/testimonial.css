@@ -1,6 +1,11 @@
 .testimonial {
     width: 80%;
-    margin: 0 auto;
+    margin: 0rem auto;
+    padding: 2rem 0;
+}
+
+.testimonial h2 {
+    font-size: var(--h2-size);
 }
 
 .testimonial p {

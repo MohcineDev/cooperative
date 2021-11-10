@@ -2,8 +2,8 @@
 :root {
   --light: #f9f9f9;
   --dark: #3C85B5;
-  --h1-size: 1.7rem;
-  --h2-size: 1.30rem;
+  --h1-size: 1.9rem;
+  --h2-size: 1.45rem;
   --h3-size: 1.1rem;
   --h4-size: 0.8rem;
 }
@@ -40,11 +40,7 @@ a {
 h1, h2 {
   text-transform: capitalize;
   color: var(--dark);
-}
-
-h1 {
-  font-size: 3rem;
-}
+} 
 
 h2 {
   text-align: center;
@@ -61,11 +57,6 @@ p {
 .shop button {
   font-family: Karla, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-}
+svg{
+  width: 50px;
+} 

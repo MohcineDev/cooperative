@@ -1,11 +1,13 @@
 .about {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .about h1 {
     text-align: center;
-    color:var(--dark);
+    color: var(--dark);
+    font-size: var(--h1-size);
+    margin-top: 2rem;
 }
 
 .about>p {
@@ -13,6 +15,10 @@
     text-align: center;
     width: 80%;
     margin: 2rem auto;
+}
+
+.about .container {
+    padding: 1rem;
 }
 
 .about .container svg {
@@ -25,4 +31,12 @@
     font-weight: 700;
     color: #154383;
     margin: 1.5rem 0;
+}
+
+/* Medium devices */
+
+@media only screen and (max-width: 768px) {
+    .about .container svg {
+        width: 90%;
+    }
 }

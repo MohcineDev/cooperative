@@ -1,11 +1,13 @@
 .shop {
-    width: 80%;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .shop h1 {
     text-align: center;
     color: var(--dark);
+    font-size: var(--h1-size);
+    margin-top: 2rem;
 }
 
 .shop>p {
@@ -15,21 +17,28 @@
     margin: 2rem auto;
 }
 
+.shop .container>p, .shop .container>h2 {
+    padding: 0 10px;
+}
+
+.shop .container>h2 {
+    text-align: left;
+    color: rgb(13, 21, 49);
+    padding-top: 1rem;
+}
+
 .shop .container>p {
     font-weight: 700;
 }
 
 .shop .wrap {
     margin: 2rem 0;
-    /* display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 250px));
-    gap: 1.5rem; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .shop {
         width: 90%;
         margin: 0 auto;

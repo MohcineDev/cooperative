@@ -1,21 +1,24 @@
-.blog {
-    width: 80%;
+.blogs {
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
-.blog h1 {
+.blogs h1 {
     text-align: center;
     color: var(--dark);
+    margin-top: 2rem;
+    font-size: var(--h1-size);
 }
 
-.blog>p {
+.blogs>p {
     color: rgb(105, 105, 105);
     text-align: center;
     width: 80%;
     margin: 2rem auto;
 }
 
-.blog form {
+.blogs form {
     margin: 1rem 0;
 }
 
@@ -25,7 +28,8 @@ form select {
     padding: 0.5rem 0.6rem;
     cursor: pointer;
     appearance: none;
-    background: linear-gradient( #fff , #e5e5e5);
+    background:  #fff;
+
     border-radius: 8px 8px 0 0;
     outline: none;
     color: var(--dark);
@@ -34,11 +38,4 @@ form select {
 select option {
     color: var(--dark);
     border: none;
-}
-
- 
-@media only screen and (max-width: 1100px) {
-    .blog {
-        width: 90%;
-    }
-}
+} 

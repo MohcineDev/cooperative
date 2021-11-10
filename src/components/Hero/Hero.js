@@ -31,9 +31,6 @@ function Hero() {
             }, 3500);
 
         }
-
-        
-
     }, [])
 
     return (
