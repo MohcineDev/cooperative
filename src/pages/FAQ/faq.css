@@ -33,14 +33,14 @@
 }
 
 .faq .container p {
-    padding: 2rem;
     color: #0d1531 !important;
 }
 
 .container .question {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     cursor: pointer;
+    padding: 1.5rem;
 }
 
 .container .answer {
@@ -49,6 +49,9 @@
     /* background-color: #21213c; */
     background-color: rgb(204, 255, 252);
     overflow: hidden;
+}
+.container .answer p{
+    padding: 1rem;
 }
 
 .faq .show {
