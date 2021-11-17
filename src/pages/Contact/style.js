@@ -170,6 +170,10 @@ const PopupContent = styled.div`
     p {
         margin-top: 0;
     }
+    svg{
+        width:30px;
+        vertical-align:middle;
+    }
 `
 
 export {

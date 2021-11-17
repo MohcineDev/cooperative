@@ -64,17 +64,17 @@ function Contact() {
             <Container>
                 <Form onSubmit={(e) => handleSubmit(e)}>
                     <Row>
-                        <Input required onFocus={remove} onBlur={display} placeholder="Full Name" aria-label="First Name" />
-                        <Input type="email" maxLength="30" required onFocus={remove} onBlur={display} placeholder="Email" aria-label="Last Name" />
+                        <Input  required onFocus={remove} onBlur={display} placeholder="Full Name" aria-label="First Name" />
+                        <Input required type="email" maxLength="30"  onFocus={remove} onBlur={display} placeholder="Email" aria-label="Last Name" />
                     </Row>
-                    <Input type="text" maxLength="60" required onFocus={remove} onBlur={display} placeholder="Subject" aria-label="Subject" />
-                    <Textarea cols="30" required placeholder="Your Message!" onFocus={remove} onBlur={display} aria-label="Your Message!" rows="10" ></Textarea>
+                    <Input required type="text" maxLength="60"  onFocus={remove} onBlur={display} placeholder="Subject" aria-label="Subject" />
+                    <Textarea required cols="30"  placeholder="Your Message!" onFocus={remove} onBlur={display} aria-label="Your Message!" rows="10" ></Textarea>
                     <Submit type="submit" title="still not working" value="Send" />
                 </Form>
             </Container>
             <Popup className="popup" onClick={hidePopup}>
                 <PopupContent className="popup-content">
-                    <p>Thanks for your Message <br /> but this btn still not working</p>
+                    <p>Thanks for your Message <br /> but this btn still not working!!!</p>
                     <Link to="/">
                         <svg style={{ fill: 'var(--dark)' }} viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" ></path></svg>
                     Back to site
