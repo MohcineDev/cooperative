@@ -59,7 +59,7 @@ const Title = styled.h3`
         font-size: 1rem !important;
     }
 `
-const A = styled(Link)`
+const ALink = styled(Link)`
     margin: 1rem 0;
     line-height: 1.5rem;
     transition: color 0.3s;
@@ -111,7 +111,7 @@ export {
     FooterDiv,
     Links,
     Title,
-    A,
+    ALink,
     Copyright,
     Email 
 }
