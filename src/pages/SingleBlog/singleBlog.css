@@ -27,7 +27,8 @@
     border-radius: 1rem;
     box-shadow: 0 0 5px #ddd;
     width: 100%;
-    transition: transform 0.3s;
+    transition: transform 0.5s;
+    min-height: 50px;
 }
 
 .singleblog .imgs img:hover {
