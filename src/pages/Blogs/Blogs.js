@@ -4,6 +4,9 @@ import Blog from '../../components/Blog/Blog.js'
 import data from './data.json'
 
 function Blogs() {
+
+ //next time fetch blog data here
+    
     // scroll to top
     useEffect(() => {
         document.title = `CooperativeN | Blogs`
