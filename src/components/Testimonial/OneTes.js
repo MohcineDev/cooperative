@@ -1,18 +1,19 @@
 import React from 'react'
+import {Card, Info, Img, Content} from './oneTesStyle'
 
 function One_Tes({id,divId,img,name,tagname,testimonial}) {
     return (
-        <div id={divId}>
-            <div className="top">
-                <img src={img} alt="" />
+        <Card id={divId}>
+            <Info className="top">
+                <Img src={img} alt="profile avatar" />
                 <div className="name">
-                    <p>{name}</p>
-                    <p>{tagname}</p>
+                    <h4>{name}</h4>
+                    <h5>{tagname}</h5>
                 </div>
-            </div>
-            <p>{testimonial}</p>
+            </Info>
+            <Content>{testimonial}</Content>
 
-        </div>
+        </Card>
     )
 }
 

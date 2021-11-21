@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import OneTes from './OneTes'
-import './testimonial.css'
 import data from './data.json'
+import {TestimonialSection , HeadingH2, Desc,Container, Wrapper, PrevBtn, NextBtn} from './style'
 
 function Testimonial() {
 
@@ -46,13 +46,12 @@ function Testimonial() {
         btns.forEach(btn => btn.addEventListener('click', slide))
     }, [])
 
-
     return (
-        <div className="testimonial">
-            <h2>Testimonials</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo harum, dicta error earum tempore aliquid, necessitatibus dolor, sit blanditiis molestiae dolorem cumque odit. Non sit repellendus explicabo dignissimos ratione?</p>
-            <div className="container">
-                <div className="tes_wrapper">
+        <TestimonialSection className="testimonial">
+            <HeadingH2>Testimonials</HeadingH2>
+            <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo harum, dicta error earum tempore aliquid, necessitatibus dolor, sit blanditiis molestiae dolorem cumque odit. Non sit repellendus explicabo dignissimos ratione?</Desc>
+            <Container className="container">
+                <Wrapper className="tes_wrapper">
                     {
                         data.map(item =>
                             <OneTes key={item.id}
@@ -63,11 +62,11 @@ function Testimonial() {
                                 testimonial={item.testimonial} />
                         )
                     }
-                </div>
-                <button className="btn" id="prev"></button>
-                <button className="btn" id="next"></button>
-            </div>
-        </div>
+                </Wrapper>
+                <PrevBtn className="btn" id="prev"></PrevBtn>
+                <NextBtn className="btn" id="next"></NextBtn>
+            </Container>
+        </TestimonialSection>
     )
 }
 

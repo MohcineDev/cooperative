@@ -21,7 +21,7 @@
         "img": "imgs/profile/2.webp",
         "name": "Something",
         "tagname": "@Something_here",
-        "testimonial": "dolor, sit blanditiis molestiae dolorem cumque odit. Non sit repellendus explicabo dignissimos ratione"
+        "testimonial": "dolor, sit blanditiis molestiae dolorem cumque odit. Non sit lorem cumque odit. Non sit repellendus explicabo dignissimos ratione"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "img": "imgs/profile/4.webp",
         "name": "Something",
         "tagname": "@Something_here",
-        "testimonial": "dolor, sit blanditiis molestiae dolorem cumque odit. Non sit repellendus explicabo dignissimos ratione"
+        "testimonial": "dolor, sit lorem cumque odit. Non sit blanditiis molestiae dolorem cumque odit. Non sit repellendus explicabo dignissimos ratione"
     },
     {
         "id": 6,
