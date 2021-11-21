@@ -87,11 +87,8 @@ const Copyright = styled.div`
     }
    
     @media only screen and (max-width: 768px) {       
-        margin-top: 3rem;
-        padding: 0 10px;
-    }
-    @media only screen and (max-width:500px) {       
         flex-direction: column-reverse;
+        padding: 0;    
     }
 `
 
@@ -102,9 +99,7 @@ const Email = styled.a`
 
     &:hover{
         color:  #afc7ff;
-    }  
-      
-
+    }
 `
   
 export {

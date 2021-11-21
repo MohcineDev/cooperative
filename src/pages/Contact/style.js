@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 import { FaInstagram, FaTwitter, FaSkype, FaGithub } from 'react-icons/fa'
 
-const ContactDiv = styled.div`
-    width: 80%;
+const ContactDiv = styled.section`
+    max-width:1200px;
     margin: 0 auto;
     position: relative;
-    
+    padding:1rem 10px;
     @media only screen and (max-width: 768px) {
         width: 90%;
     }
@@ -44,7 +44,7 @@ const A = styled.a`
     cursor: pointer;
     margin: 1rem 1.2rem 0 0;
     border: 2px dashed #eee;
-    box-shadow: 0 0 0px 5px var(--dark);
+    outline: 5px solid var(--dark);
 
     &:hover{
         border-color:#fff;
@@ -77,6 +77,8 @@ const Email = styled.a`
     border-left: 7px solid #ccc;
     padding: 7px;
     width: max-content;
+    margin:10px 0;
+    display:block;
 `
 const Form = styled.form`
     background-color: #fff;

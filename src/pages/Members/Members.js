@@ -4,6 +4,7 @@ import data from './data.json'
 import Member from '../../components/Member/Member'
 
 function Members() {
+    
     useEffect(() => {
         document.title = `CooperativeN | Members`
         window.scrollTo(0, 0)
